@@ -1,0 +1,136 @@
+
+.hari, .time-awal, .time-akhir {
+  width : 25%!important;
+}
+
+.hari{
+  margin-right: 10px;
+}
+
+.input-group-jam{
+    margin-bottom : 10px;
+    min-height: 34px;
+}
+
+.loading-container {
+    display: none;
+    position: absolute; 
+    height: 110%; 
+    width : 100%; 
+    left: 0; 
+    top:-10%; 
+    z-index: 10000;
+}
+
+.loading-content{
+    position: absolute; 
+    height: 100%; 
+    width : 100%; 
+    left: 0; 
+    top:0; 
+    background-color : #555555; 
+    opacity: 0.5
+}
+
+.loading-box{
+    padding :15px; 
+    position : absolute; 
+    left: 30%; 
+    top: 30%; 
+    background-color: #eeeeee; 
+    font-size: 40px; 
+    width : 40%; 
+    height: auto; 
+    opacity: 1;
+}
+
+.loading-a::after {
+    animation : loading-a 3s linear infinite alternate;
+    -webkit-animation: loading-a 3s linear infinite alternate;
+    -moz-animation: loading-a 3s linear infinite alternate;
+}
+
+.mt-element-ribbon{
+  margin-right: 10px;
+  display :block;
+}
+
+.select_slot{
+  list-style: none;
+  width : 100%;
+  padding : 0;
+}
+
+.select_slot li{
+  list-style-position: inside;
+  float : left;
+  margin-right : 5px;
+  margin-bottom : 5px;
+  padding : 10px;
+  background-color: cyan;
+  font-weight: bold;
+  border : 3px solid rgba(211, 199, 211,0);
+}
+
+.select_slot li:hover{
+  cursor: pointer;
+}
+
+.select_slot li.selected{
+  border : 3px solid purple;
+}
+
+.title{
+  margin-bottom : 5px;
+}
+
+div[class*="-section"]{
+  display: none;
+}
+
+div[class*="-section"].active{
+  display: block;
+}
+
+ 
+input[type=checkbox]:checked+img.img-thumbnail {
+  background-color: #009688;
+  color: #adad78;
+  border-color: #037369;
+}
+
+@-webkit-keyframes loading-a {
+    0% {
+        content : ".";
+    }
+    50%{
+        content : "..";
+    }
+    100% {
+        content :"...";
+    }
+  }
+
+  @-moz-keyframes loading-a {
+    0% {
+      content : '.';
+    }
+    50%{
+      content : "..";
+    }
+    100% {
+      content :"...";
+    }
+  };
+
+  @keyframes loading-a {
+    0% {
+      content : '.';
+    }
+    50%{
+      content : "..";
+    }
+    100% {
+      content :"...";
+    }
+  };
