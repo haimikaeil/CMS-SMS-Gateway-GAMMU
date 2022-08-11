@@ -1,0 +1,1090 @@
+CRITICAL - 2022-01-28 09:45:03 --> Trying to get property 'nama' of non-object
+#0 C:\xamphp7.4\htdocs\endque_lion\app\Views\template\header.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xamphp7.4\\ht...', 27, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xamphp7.4\\ht...')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(424): CodeIgniter\View\View->render('template/header', NULL, true)
+#4 C:\xamphp7.4\htdocs\endque_lion\app\Views\template\template.php(78): CodeIgniter\View\View->include('template/header')
+#5 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xamphp7.4\\ht...')
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('template/templa...', Array, true)
+#8 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\dashboa...', Array, true)
+#9 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(64): view('Modules\\dashboa...', Array)
+#10 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(29): App\Libraries\Templates->display('dashboard', 'index', Array)
+#11 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->index()
+#12 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#13 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#15 {main}
+CRITICAL - 2022-01-28 10:30:53 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 10:33:11 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 10:35:56 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 10:37:17 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 10:39:56 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 10:40:02 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 10:41:17 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 10:41:27 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 10:46:12 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 10:47:17 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 10:48:51 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 10:49:45 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 10:51:39 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 10:52:23 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 10:53:58 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 10:54:06 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 10:54:23 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 10:54:32 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 10:59:05 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 10:59:06 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:05:27 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:05:28 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:05:29 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:05:30 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:06:02 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:07:08 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:07:14 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:09:50 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:09:51 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:09:55 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:10:20 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:10:21 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:12:37 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:12:38 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:13:10 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:13:15 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:13:33 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:16:09 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:16:10 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:16:10 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:17:02 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:17:03 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:17:04 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:17:06 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:18:01 --> Class 'Modules\Gudang\Controllers\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:18:01 --> Class 'Modules\Gudang\Controllers\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:18:06 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:19:37 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(802): Modules\Gudang\Controllers\Gudang->__construct()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:19:48 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(802): Modules\Gudang\Controllers\Gudang->__construct()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:24:36 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:24:37 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:24:37 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:24:48 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:25:26 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:25:39 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:26:57 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:26:59 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:27:00 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:27:01 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:27:01 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:27:01 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:27:01 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:27:01 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:27:02 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:28:42 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:28:43 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:29:11 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:29:54 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:31:08 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:32:07 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:34:36 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:34:43 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:34:48 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:34:51 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:35:26 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:35:39 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:35:43 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:35:54 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:36:03 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:36:35 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:36:35 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:36:37 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:37:08 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:37:08 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:37:09 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:37:09 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:37:11 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:40:48 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:43:19 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:43:47 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:44:25 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:44:52 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 11:47:03 --> Class 'Irsyadulibad\DataTables\TableProcessor' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\ci4_datatables\src\DataTables.php(13): Irsyadulibad\DataTables\DataTables::create('gudang')
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(27): Irsyadulibad\DataTables\DataTables::use('gudang')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-28 11:47:06 --> Class 'Irsyadulibad\DataTables\TableProcessor' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\ci4_datatables\src\DataTables.php(13): Irsyadulibad\DataTables\DataTables::create('gudang')
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(27): Irsyadulibad\DataTables\DataTables::use('gudang')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-28 11:47:07 --> Class 'Irsyadulibad\DataTables\TableProcessor' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\ci4_datatables\src\DataTables.php(13): Irsyadulibad\DataTables\DataTables::create('gudang')
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(27): Irsyadulibad\DataTables\DataTables::use('gudang')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-28 11:47:08 --> Class 'Irsyadulibad\DataTables\TableProcessor' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\ci4_datatables\src\DataTables.php(13): Irsyadulibad\DataTables\DataTables::create('gudang')
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(27): Irsyadulibad\DataTables\DataTables::use('gudang')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-28 11:47:09 --> Class 'Irsyadulibad\DataTables\TableProcessor' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\ci4_datatables\src\DataTables.php(13): Irsyadulibad\DataTables\DataTables::create('gudang')
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(27): Irsyadulibad\DataTables\DataTables::use('gudang')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-28 11:47:10 --> Class 'Irsyadulibad\DataTables\TableProcessor' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\ci4_datatables\src\DataTables.php(13): Irsyadulibad\DataTables\DataTables::create('gudang')
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(27): Irsyadulibad\DataTables\DataTables::use('gudang')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-28 11:48:02 --> Class 'Irsyadulibad\DataTables\TableProcessor' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\ci4_datatables\src\DataTables.php(12): Irsyadulibad\DataTables\DataTables::create('gudang')
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(27): Irsyadulibad\DataTables\DataTables::use('gudang')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-28 11:48:03 --> Class 'Irsyadulibad\DataTables\TableProcessor' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\ci4_datatables\src\DataTables.php(12): Irsyadulibad\DataTables\DataTables::create('gudang')
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(27): Irsyadulibad\DataTables\DataTables::use('gudang')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-28 12:23:01 --> Class 'Irsyadulibad\DataTables\TableProcessor' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\ci4_datatables\src\DataTables.php(12): Irsyadulibad\DataTables\DataTables::create('gudang')
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(27): Irsyadulibad\DataTables\DataTables::use('gudang')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-28 12:24:29 --> syntax error, unexpected 'class' (T_CLASS), expecting ';' or ','
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xamphp7.4\\ht...')
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Irsyadulibad\\Da...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Irsyadulibad\\Da...')
+#3 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(27): spl_autoload_call('Irsyadulibad\\Da...')
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#5 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-28 12:24:43 --> Class 'Irsyadulibad\DataTables\TableProcessor' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\ci4_datatables\src\DataTables.php(12): Irsyadulibad\DataTables\DataTables::create('gudang')
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(27): Irsyadulibad\DataTables\DataTables::use('gudang')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-28 12:27:09 --> Class 'Irsyadulibad\DataTables\TableProcessor' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\ci4_datatables\src\DataTables.php(13): Irsyadulibad\DataTables\DataTables::create('gudang')
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(27): Irsyadulibad\DataTables\DataTables::use('gudang')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-28 12:27:11 --> Class 'Irsyadulibad\DataTables\TableProcessor' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\ci4_datatables\src\DataTables.php(13): Irsyadulibad\DataTables\DataTables::create('gudang')
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(27): Irsyadulibad\DataTables\DataTables::use('gudang')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-28 12:27:11 --> Class 'Irsyadulibad\DataTables\TableProcessor' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\ci4_datatables\src\DataTables.php(13): Irsyadulibad\DataTables\DataTables::create('gudang')
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(27): Irsyadulibad\DataTables\DataTables::use('gudang')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-28 12:27:12 --> Class 'Irsyadulibad\DataTables\TableProcessor' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\ci4_datatables\src\DataTables.php(13): Irsyadulibad\DataTables\DataTables::create('gudang')
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(27): Irsyadulibad\DataTables\DataTables::use('gudang')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-28 12:27:13 --> Class 'Irsyadulibad\DataTables\TableProcessor' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\ci4_datatables\src\DataTables.php(13): Irsyadulibad\DataTables\DataTables::create('gudang')
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(27): Irsyadulibad\DataTables\DataTables::use('gudang')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-28 12:27:13 --> Class 'Irsyadulibad\DataTables\TableProcessor' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\ci4_datatables\src\DataTables.php(13): Irsyadulibad\DataTables\DataTables::create('gudang')
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(27): Irsyadulibad\DataTables\DataTables::use('gudang')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-28 12:27:22 --> Class 'Irsyadulibad\DataTables\DataTableMethods' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xamphp7.4\\ht...')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Irsyadulibad\\Da...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Irsyadulibad\\Da...')
+#4 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\ci4_datatables\src\DataTables.php(19): spl_autoload_call('Irsyadulibad\\Da...')
+#5 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\ci4_datatables\src\DataTables.php(13): Irsyadulibad\DataTables\DataTables::create('gudang')
+#6 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(27): Irsyadulibad\DataTables\DataTables::use('gudang')
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#8 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#9 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-01-28 12:27:23 --> Class 'Irsyadulibad\DataTables\DataTableMethods' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xamphp7.4\\ht...')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Irsyadulibad\\Da...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Irsyadulibad\\Da...')
+#4 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\ci4_datatables\src\DataTables.php(19): spl_autoload_call('Irsyadulibad\\Da...')
+#5 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\ci4_datatables\src\DataTables.php(13): Irsyadulibad\DataTables\DataTables::create('gudang')
+#6 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(27): Irsyadulibad\DataTables\DataTables::use('gudang')
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#8 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#9 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-01-28 12:27:53 --> Class 'Irsyadulibad\DataTables\DataTableMethods' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xamphp7.4\\ht...')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Irsyadulibad\\Da...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Irsyadulibad\\Da...')
+#4 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\ci4_datatables\src\DataTables.php(19): spl_autoload_call('Irsyadulibad\\Da...')
+#5 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\ci4_datatables\src\DataTables.php(13): Irsyadulibad\DataTables\DataTables::create('gudang')
+#6 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(27): Irsyadulibad\DataTables\DataTables::use('gudang')
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#8 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#9 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-01-28 12:27:54 --> Class 'Irsyadulibad\DataTables\DataTableMethods' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xamphp7.4\\ht...')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Irsyadulibad\\Da...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Irsyadulibad\\Da...')
+#4 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\ci4_datatables\src\DataTables.php(19): spl_autoload_call('Irsyadulibad\\Da...')
+#5 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\ci4_datatables\src\DataTables.php(13): Irsyadulibad\DataTables\DataTables::create('gudang')
+#6 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(27): Irsyadulibad\DataTables\DataTables::use('gudang')
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#8 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#9 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-01-28 12:28:43 --> Class 'Irsyadulibad\DataTables\DataTableMethods' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xamphp7.4\\ht...')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Irsyadulibad\\Da...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Irsyadulibad\\Da...')
+#4 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\ci4_datatables\src\DataTables.php(19): spl_autoload_call('Irsyadulibad\\Da...')
+#5 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\ci4_datatables\src\DataTables.php(13): Irsyadulibad\DataTables\DataTables::create('gudang')
+#6 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(27): Irsyadulibad\DataTables\DataTables::use('gudang')
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#8 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#9 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-01-28 12:28:43 --> Class 'Irsyadulibad\DataTables\DataTableMethods' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xamphp7.4\\ht...')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Irsyadulibad\\Da...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Irsyadulibad\\Da...')
+#4 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\ci4_datatables\src\DataTables.php(19): spl_autoload_call('Irsyadulibad\\Da...')
+#5 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\ci4_datatables\src\DataTables.php(13): Irsyadulibad\DataTables\DataTables::create('gudang')
+#6 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(27): Irsyadulibad\DataTables\DataTables::use('gudang')
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#8 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#9 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-01-28 12:28:54 --> Class 'Irsyadulibad\DataTables\DataTableMethods' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xamphp7.4\\ht...')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Irsyadulibad\\Da...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Irsyadulibad\\Da...')
+#4 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\ci4_datatables\src\DataTables.php(19): spl_autoload_call('Irsyadulibad\\Da...')
+#5 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\ci4_datatables\src\DataTables.php(13): Irsyadulibad\DataTables\DataTables::create('gudang')
+#6 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(27): Irsyadulibad\DataTables\DataTables::use('gudang')
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#8 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#9 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-01-28 12:30:44 --> Class 'Irsyadulibad\DataTables\DataTableMethods' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xamphp7.4\\ht...')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Irsyadulibad\\Da...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Irsyadulibad\\Da...')
+#4 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\ci4_datatables\src\DataTables.php(19): spl_autoload_call('Irsyadulibad\\Da...')
+#5 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\ci4_datatables\src\DataTables.php(13): Irsyadulibad\DataTables\DataTables::create('gudang')
+#6 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(27): Irsyadulibad\DataTables\DataTables::use('gudang')
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#8 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#9 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-01-28 12:30:44 --> Class 'Irsyadulibad\DataTables\DataTableMethods' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xamphp7.4\\ht...')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Irsyadulibad\\Da...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Irsyadulibad\\Da...')
+#4 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\ci4_datatables\src\DataTables.php(19): spl_autoload_call('Irsyadulibad\\Da...')
+#5 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\ci4_datatables\src\DataTables.php(13): Irsyadulibad\DataTables\DataTables::create('gudang')
+#6 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(27): Irsyadulibad\DataTables\DataTables::use('gudang')
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#8 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#9 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-01-28 12:30:47 --> Class 'Irsyadulibad\DataTables\DataTableMethods' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xamphp7.4\\ht...')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Irsyadulibad\\Da...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Irsyadulibad\\Da...')
+#4 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\ci4_datatables\src\DataTables.php(19): spl_autoload_call('Irsyadulibad\\Da...')
+#5 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\ci4_datatables\src\DataTables.php(13): Irsyadulibad\DataTables\DataTables::create('gudang')
+#6 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(27): Irsyadulibad\DataTables\DataTables::use('gudang')
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#8 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#9 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-01-28 12:30:59 --> Class 'Irsyadulibad\Datatables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 12:57:21 --> Class 'Modules\Gudang\Controllers\M_log' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-01-28 13:03:57 --> Unknown column 'id_log' in 'field list'
+CRITICAL - 2022-01-28 13:03:57 --> Unknown column 'id_log' in 'field list'
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_log`...', 0)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_log`...')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_log`...')
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id_log`...', Array, false)
+#4 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Models\M_gudang.php(62): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(30): Modules\Gudang\Models\M_gudang->getDatatables()
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#8 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-01-28 13:06:24 --> Unknown column 'id_log' in 'field list'
+CRITICAL - 2022-01-28 13:06:24 --> Unknown column 'id_log' in 'field list'
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_log`...', 0)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_log`...')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_log`...')
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id_log`...', Array, false)
+#4 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Models\M_gudang.php(62): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(31): Modules\Gudang\Models\M_gudang->getDatatables()
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#8 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-01-28 13:06:25 --> Unknown column 'id_log' in 'field list'
+CRITICAL - 2022-01-28 13:06:25 --> Unknown column 'id_log' in 'field list'
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_log`...', 0)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_log`...')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_log`...')
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id_log`...', Array, false)
+#4 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Models\M_gudang.php(62): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(31): Modules\Gudang\Models\M_gudang->getDatatables()
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#8 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-28 13:28:24 --> Call to undefined method Modules\Gudang\Models\M_gudang::request
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Models\M_gudang.php(29): CodeIgniter\Model->__call('request', Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(28): Modules\Gudang\Models\M_gudang->a()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-01-28 13:31:59 --> Unknown column 'id_log' in 'field list'
+CRITICAL - 2022-01-28 13:31:59 --> Unknown column 'id_log' in 'field list'
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_log`...', 0)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_log`...')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_log`...')
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id_log`...', Array, false)
+#4 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Models\M_gudang.php(62): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(29): Modules\Gudang\Models\M_gudang->getDatatables()
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#8 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-28 13:32:42 --> Undefined property: stdClass::$waktu
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 34, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-28 13:34:28 --> Undefined property: stdClass::$waktu
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 35, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-28 13:54:56 --> Too few arguments to function Modules\Gudang\Models\M_gudang::__construct(), 0 passed in C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php on line 27 and exactly 1 expected
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(27): Modules\Gudang\Models\M_gudang->__construct()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-28 13:58:09 --> Argument 1 passed to Modules\Gudang\Models\M_gudang::__construct() must be an instance of CodeIgniter\HTTP\IncomingRequest, null given, called in C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php on line 14
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(14): Modules\Gudang\Models\M_gudang->__construct(NULL)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(802): Modules\Gudang\Controllers\Gudang->__construct()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-28 01:06:34 --> Too few arguments to function Modules\Gudang\Controllers\Gudang::__construct(), 0 passed in C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(802): Modules\Gudang\Controllers\Gudang->__construct()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 01:06:58 --> Too few arguments to function Modules\Gudang\Controllers\Gudang::__construct(), 0 passed in C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(802): Modules\Gudang\Controllers\Gudang->__construct()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 01:06:59 --> Too few arguments to function Modules\Gudang\Controllers\Gudang::__construct(), 0 passed in C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(802): Modules\Gudang\Controllers\Gudang->__construct()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-28 14:07:25 --> Argument 1 passed to Modules\Gudang\Models\M_gudang::__construct() must be an instance of CodeIgniter\HTTP\IncomingRequest, null given, called in C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php on line 14
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(14): Modules\Gudang\Models\M_gudang->__construct(NULL)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(802): Modules\Gudang\Controllers\Gudang->__construct()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-28 14:07:57 --> Argument 1 passed to Modules\Gudang\Models\M_gudang::__construct() must implement interface CodeIgniter\HTTP\RequestInterface, null given, called in C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php on line 14
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(14): Modules\Gudang\Models\M_gudang->__construct(NULL)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(802): Modules\Gudang\Controllers\Gudang->__construct()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-28 14:08:17 --> Argument 1 passed to Modules\Gudang\Models\M_gudang::__construct() must be an instance of CodeIgniter\HTTP\IncomingRequest, null given, called in C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php on line 14
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(14): Modules\Gudang\Models\M_gudang->__construct(NULL)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(802): Modules\Gudang\Controllers\Gudang->__construct()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-28 14:08:41 --> Argument 1 passed to Modules\Gudang\Models\M_gudang::__construct() must be an instance of CodeIgniter\HTTP\IncomingRequest, null given, called in C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php on line 16
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(16): Modules\Gudang\Models\M_gudang->__construct(NULL)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(802): Modules\Gudang\Controllers\Gudang->__construct()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-28 14:08:56 --> Argument 1 passed to Modules\Gudang\Models\M_gudang::__construct() must be an instance of CodeIgniter\HTTP\IncomingRequest, null given, called in C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php on line 17
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(17): Modules\Gudang\Models\M_gudang->__construct(NULL)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(802): Modules\Gudang\Controllers\Gudang->__construct()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-28 14:08:56 --> Argument 1 passed to Modules\Gudang\Models\M_gudang::__construct() must be an instance of CodeIgniter\HTTP\IncomingRequest, null given, called in C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php on line 17
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(17): Modules\Gudang\Models\M_gudang->__construct(NULL)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(802): Modules\Gudang\Controllers\Gudang->__construct()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-28 14:09:06 --> Argument 1 passed to Modules\Gudang\Models\M_gudang::__construct() must be an instance of CodeIgniter\HTTP\IncomingRequest, null given, called in C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php on line 14
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(14): Modules\Gudang\Models\M_gudang->__construct(NULL)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(802): Modules\Gudang\Controllers\Gudang->__construct()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-28 14:14:14 --> Argument 1 passed to Modules\Gudang\Models\M_gudang::__construct() must be an instance of CodeIgniter\HTTP\IncomingRequest, null given, called in C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php on line 14
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(14): Modules\Gudang\Models\M_gudang->__construct(NULL)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(802): Modules\Gudang\Controllers\Gudang->__construct()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-28 14:17:25 --> Argument 1 passed to Modules\Gudang\Models\M_gudang::__construct() must be an instance of CodeIgniter\HTTP\IncomingRequest, null given, called in C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php on line 14
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(14): Modules\Gudang\Models\M_gudang->__construct(NULL)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(802): Modules\Gudang\Controllers\Gudang->__construct()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-28 14:17:26 --> Argument 1 passed to Modules\Gudang\Models\M_gudang::__construct() must be an instance of CodeIgniter\HTTP\IncomingRequest, null given, called in C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php on line 14
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(14): Modules\Gudang\Models\M_gudang->__construct(NULL)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(802): Modules\Gudang\Controllers\Gudang->__construct()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-28 14:19:29 --> Function name must be a string
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Models\M_gudang.php(54): Modules\Gudang\Models\M_gudang->getDatatablesQuery()
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(29): Modules\Gudang\Models\M_gudang->getDatatables()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-28 14:19:46 --> Function name must be a string
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Models\M_gudang.php(54): Modules\Gudang\Models\M_gudang->getDatatablesQuery()
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(29): Modules\Gudang\Models\M_gudang->getDatatables()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-28 14:22:01 --> Undefined index: order
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Models\M_gudang.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xamphp7.4\\ht...', 44, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Models\M_gudang.php(54): Modules\Gudang\Models\M_gudang->getDatatablesQuery()
+#2 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(29): Modules\Gudang\Models\M_gudang->getDatatables()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#5 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-28 14:22:45 --> Undefined index: order
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Models\M_gudang.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xamphp7.4\\ht...', 44, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Models\M_gudang.php(54): Modules\Gudang\Models\M_gudang->getDatatablesQuery()
+#2 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(29): Modules\Gudang\Models\M_gudang->getDatatables()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#5 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-01-28 14:23:17 --> Function name must be a string
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(29): Modules\Gudang\Models\M_gudang->getDatatables()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-28 14:44:08 --> Undefined property: stdClass::$nama_gudang
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 34, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-28 14:44:10 --> Undefined property: stdClass::$nama_gudang
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 34, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-28 02:16:57 --> syntax error, unexpected '}'
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xamphp7.4\\ht...')
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Modules\\Gudang\\...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Modules\\Gudang\\...')
+#3 [internal function]: spl_autoload_call('Modules\\Gudang\\...')
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(790): class_exists('\\Modules\\Gudang...', true)
+#5 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

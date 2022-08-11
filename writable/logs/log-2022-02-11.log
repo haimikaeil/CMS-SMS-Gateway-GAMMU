@@ -1,0 +1,186 @@
+CRITICAL - 2022-02-11 10:55:21 --> Undefined property: Modules\Log\Controllers\Log::$m_log
+#0 C:\xamphp7.4\htdocs\sms\modules\Log\Controllers\Log.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 23, Array)
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Log\Controllers\Log->get_data()
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Log\Controllers\Log))
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-11 10:55:28 --> Undefined property: Modules\Log\Controllers\Log::$m_log
+#0 C:\xamphp7.4\htdocs\sms\modules\Log\Controllers\Log.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 23, Array)
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Log\Controllers\Log->get_data()
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Log\Controllers\Log))
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-11 11:06:14 --> Undefined property: Modules\Log\Controllers\Log::$m_log
+#0 C:\xamphp7.4\htdocs\sms\modules\Log\Controllers\Log.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 23, Array)
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Log\Controllers\Log->get_data()
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Log\Controllers\Log))
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-11 11:06:20 --> Undefined property: Modules\Log\Controllers\Log::$m_log
+#0 C:\xamphp7.4\htdocs\sms\modules\Log\Controllers\Log.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 23, Array)
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Log\Controllers\Log->get_data()
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Log\Controllers\Log))
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-11 11:08:10 --> Undefined property: Modules\User\Controllers\User::$m_user
+#0 C:\xamphp7.4\htdocs\sms\modules\User\Controllers\User.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 32, Array)
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\User\Controllers\User->get_data()
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\User\Controllers\User))
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-11 11:40:27 --> Undefined property: CodeIgniter\View\View::$icon
+#0 C:\xamphp7.4\htdocs\sms\modules\Broadcast_pesan\Views\index.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 12, Array)
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xamphp7.4\\ht...')
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\broadca...', Array, true)
+#4 C:\xamphp7.4\htdocs\sms\app\Libraries\Templates.php(37): view('Modules\\broadca...', Array)
+#5 C:\xamphp7.4\htdocs\sms\modules\Broadcast_pesan\Controllers\Broadcast_pesan.php(19): App\Libraries\Templates->display('broadcast_pesan', 'index', Array)
+#6 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Broadcast_pesan\Controllers\Broadcast_pesan->index()
+#7 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Broadcast_pesan\Controllers\Broadcast_pesan))
+#8 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-11 12:38:54 --> Undefined property: CodeIgniter\View\View::$icon
+#0 C:\xamphp7.4\htdocs\sms\modules\Kontak\Views\index.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 8, Array)
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xamphp7.4\\ht...')
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\kontak\\...', Array, true)
+#4 C:\xamphp7.4\htdocs\sms\app\Libraries\Templates.php(37): view('Modules\\kontak\\...', Array)
+#5 C:\xamphp7.4\htdocs\sms\modules\Kontak\Controllers\Kontak.php(18): App\Libraries\Templates->display('kontak', 'index')
+#6 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Kontak\Controllers\Kontak->index()
+#7 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Kontak\Controllers\Kontak))
+#8 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-11 12:41:56 --> Undefined index: search
+#0 C:\xamphp7.4\htdocs\sms\modules\Log\Models\M_log.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xamphp7.4\\ht...', 34, Array)
+#1 C:\xamphp7.4\htdocs\sms\modules\Log\Models\M_log.php(57): Modules\Log\Models\M_log->getDatatablesQuery()
+#2 C:\xamphp7.4\htdocs\sms\modules\Kontak\Controllers\Kontak.php(24): Modules\Log\Models\M_log->getDatatables()
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Kontak\Controllers\Kontak->get_data()
+#4 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Kontak\Controllers\Kontak))
+#5 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-11 12:43:04 --> Undefined property: stdClass::$id_kontak
+#0 C:\xamphp7.4\htdocs\sms\modules\Kontak\Controllers\Kontak.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 32, Array)
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Kontak\Controllers\Kontak->get_data()
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Kontak\Controllers\Kontak))
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-11 12:44:08 --> Undefined property: stdClass::$id_kontak
+#0 C:\xamphp7.4\htdocs\sms\modules\Kontak\Controllers\Kontak.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 32, Array)
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Kontak\Controllers\Kontak->get_data()
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Kontak\Controllers\Kontak))
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-11 12:44:45 --> Undefined property: stdClass::$waktu
+#0 C:\xamphp7.4\htdocs\sms\modules\Kontak\Controllers\Kontak.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 29, Array)
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Kontak\Controllers\Kontak->get_data()
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Kontak\Controllers\Kontak))
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-11 12:47:25 --> Undefined property: CodeIgniter\View\View::$cname
+#0 C:\xamphp7.4\htdocs\sms\modules\Kontak\Views\add.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 11, Array)
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xamphp7.4\\ht...')
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\kontak\\...', Array, true)
+#4 C:\xamphp7.4\htdocs\sms\app\Libraries\Templates.php(37): view('Modules\\kontak\\...', Array)
+#5 C:\xamphp7.4\htdocs\sms\modules\Kontak\Controllers\Kontak.php(59): App\Libraries\Templates->display('kontak', 'add')
+#6 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Kontak\Controllers\Kontak->tambah()
+#7 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Kontak\Controllers\Kontak))
+#8 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-11 12:58:05 --> Undefined property: CodeIgniter\Database\MySQLi\Builder::$id_user
+#0 C:\xamphp7.4\htdocs\sms\modules\Kontak\Controllers\Kontak.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 94, Array)
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Kontak\Controllers\Kontak->do_tambah()
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Kontak\Controllers\Kontak))
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-11 13:00:20 --> Call to undefined method CodeIgniter\Session\Session::flashdata()
+#0 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Kontak\Controllers\Kontak->edit()
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Kontak\Controllers\Kontak))
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-11 13:09:53 --> Cannot declare class Modules\Log\Models\M_log, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-11 13:10:18 --> Cannot declare class Modules\Log\Models\M_log, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-11 13:10:29 --> Cannot declare class Modules\Log\Models\M_log, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-11 13:11:55 --> Cannot declare class Modules\Log\Models\M_log, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-11 13:12:07 --> Cannot declare class Modules\Log\Models\M_log, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-11 13:12:11 --> Cannot declare class Modules\Log\Models\M_log, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-11 13:33:50 --> Trying to get property 'nama' of non-object
+#0 C:\xamphp7.4\htdocs\sms\modules\Pesan_masuk\Controllers\Pesan_masuk.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xamphp7.4\\ht...', 52, Array)
+#1 C:\xamphp7.4\htdocs\sms\modules\Pesan_masuk\Controllers\Pesan_masuk.php(29): Modules\Pesan_masuk\Controllers\Pesan_masuk->get_kontak('HOT PROMO')
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Pesan_masuk\Controllers\Pesan_masuk->get_data()
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Pesan_masuk\Controllers\Pesan_masuk))
+#4 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-11 13:34:47 --> Trying to get property 'nama' of non-object
+#0 C:\xamphp7.4\htdocs\sms\modules\Pesan_masuk\Controllers\Pesan_masuk.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xamphp7.4\\ht...', 52, Array)
+#1 C:\xamphp7.4\htdocs\sms\modules\Pesan_masuk\Controllers\Pesan_masuk.php(29): Modules\Pesan_masuk\Controllers\Pesan_masuk->get_kontak('HOT PROMO')
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Pesan_masuk\Controllers\Pesan_masuk->get_data()
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Pesan_masuk\Controllers\Pesan_masuk))
+#4 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-11 13:36:22 --> Trying to get property 'nama' of non-object
+#0 C:\xamphp7.4\htdocs\sms\modules\Pesan_masuk\Controllers\Pesan_masuk.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xamphp7.4\\ht...', 52, Array)
+#1 C:\xamphp7.4\htdocs\sms\modules\Pesan_masuk\Controllers\Pesan_masuk.php(29): Modules\Pesan_masuk\Controllers\Pesan_masuk->get_kontak('HOT PROMO')
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Pesan_masuk\Controllers\Pesan_masuk->get_data()
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Pesan_masuk\Controllers\Pesan_masuk))
+#4 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-11 13:37:37 --> Trying to get property 'nama' of non-object
+#0 C:\xamphp7.4\htdocs\sms\modules\Pesan_masuk\Controllers\Pesan_masuk.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xamphp7.4\\ht...', 52, Array)
+#1 C:\xamphp7.4\htdocs\sms\modules\Pesan_masuk\Controllers\Pesan_masuk.php(29): Modules\Pesan_masuk\Controllers\Pesan_masuk->get_kontak('HOT PROMO')
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Pesan_masuk\Controllers\Pesan_masuk->get_data()
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Pesan_masuk\Controllers\Pesan_masuk))
+#4 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-11 13:39:13 --> Trying to get property 'nama' of non-object
+#0 C:\xamphp7.4\htdocs\sms\modules\Pesan_masuk\Controllers\Pesan_masuk.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xamphp7.4\\ht...', 52, Array)
+#1 C:\xamphp7.4\htdocs\sms\modules\Pesan_masuk\Controllers\Pesan_masuk.php(29): Modules\Pesan_masuk\Controllers\Pesan_masuk->get_kontak('HOT PROMO')
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Pesan_masuk\Controllers\Pesan_masuk->get_data()
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Pesan_masuk\Controllers\Pesan_masuk))
+#4 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-11 13:52:47 --> Call to undefined function Modules\User\Controllers\lower_case()
+#0 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\User\Controllers\User->get_data()
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\User\Controllers\User))
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-11 13:53:12 --> strtolower() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strtolower() ex...', 'C:\\xamphp7.4\\ht...', 43, Array)
+#1 C:\xamphp7.4\htdocs\sms\modules\User\Controllers\User.php(43): strtolower(Array)
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\User\Controllers\User->get_data()
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\User\Controllers\User))
+#4 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

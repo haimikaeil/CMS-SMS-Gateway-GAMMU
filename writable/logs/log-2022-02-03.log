@@ -1,0 +1,333 @@
+CRITICAL - 2022-02-03 11:30:19 --> Undefined variable: session
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Views\add.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamphp7.4\\ht...', 3, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xamphp7.4\\ht...')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\gudang\\...', Array, true)
+#4 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(69): view('Modules\\gudang\\...', Array)
+#5 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(66): App\Libraries\Templates->display('gudang', '/add')
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->tambah()
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#8 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-03 11:46:32 --> Object of class stdClass could not be converted to string
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('template/templa...', Array, true)
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\gudang\\...', Array, true)
+#4 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(69): view('Modules\\gudang\\...', Array)
+#5 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(65): App\Libraries\Templates->display('gudang', '/add')
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->tambah()
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#8 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-03 11:47:14 --> Object of class stdClass could not be converted to string
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('template/templa...', Array, true)
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\gudang\\...', Array, true)
+#4 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(69): view('Modules\\gudang\\...', Array)
+#5 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(65): App\Libraries\Templates->display('gudang', '/add')
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->tambah()
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#8 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-03 11:53:44 --> Object of class stdClass could not be converted to string
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\gudang\\...', Array, true)
+#3 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(69): view('Modules\\gudang\\...', Array)
+#4 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(65): App\Libraries\Templates->display('gudang', '/add')
+#5 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->tambah()
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-03 11:53:50 --> Object of class stdClass could not be converted to string
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\gudang\\...', Array, true)
+#3 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(69): view('Modules\\gudang\\...', Array)
+#4 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(65): App\Libraries\Templates->display('gudang', '/add')
+#5 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->tambah()
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-03 11:53:52 --> Object of class stdClass could not be converted to string
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\gudang\\...', Array, true)
+#3 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(69): view('Modules\\gudang\\...', Array)
+#4 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(65): App\Libraries\Templates->display('gudang', '/add')
+#5 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->tambah()
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-03 11:54:31 --> Trying to get property 'kode_gudang' of non-object
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xamphp7.4\\ht...', 82, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->do_tambah()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-03 11:54:41 --> Trying to get property 'kode_gudang' of non-object
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xamphp7.4\\ht...', 82, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->do_tambah()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-03 11:54:49 --> Trying to get property 'kode_gudang' of non-object
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xamphp7.4\\ht...', 82, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->do_tambah()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-03 11:54:51 --> Object of class stdClass could not be converted to string
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\gudang\\...', Array, true)
+#3 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(69): view('Modules\\gudang\\...', Array)
+#4 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(65): App\Libraries\Templates->display('gudang', '/add')
+#5 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->tambah()
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-03 11:54:53 --> Object of class stdClass could not be converted to string
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\gudang\\...', Array, true)
+#3 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(69): view('Modules\\gudang\\...', Array)
+#4 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(65): App\Libraries\Templates->display('gudang', '/add')
+#5 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->tambah()
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-03 11:55:06 --> Object of class stdClass could not be converted to string
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\gudang\\...', Array, true)
+#3 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(69): view('Modules\\gudang\\...', Array)
+#4 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(65): App\Libraries\Templates->display('gudang', '/add')
+#5 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->tambah()
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-03 11:55:08 --> Object of class stdClass could not be converted to string
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\gudang\\...', Array, true)
+#3 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(69): view('Modules\\gudang\\...', Array)
+#4 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(65): App\Libraries\Templates->display('gudang', '/add')
+#5 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->tambah()
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-03 11:55:42 --> Cannot use object of type stdClass as array
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\gudang\\...', Array, true)
+#3 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(69): view('Modules\\gudang\\...', Array)
+#4 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(65): App\Libraries\Templates->display('gudang', '/add')
+#5 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->tambah()
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-03 11:55:53 --> Cannot use object of type stdClass as array
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\gudang\\...', Array, true)
+#3 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(69): view('Modules\\gudang\\...', Array)
+#4 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(65): App\Libraries\Templates->display('gudang', '/add')
+#5 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->tambah()
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-03 11:56:00 --> Cannot use object of type stdClass as array
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\gudang\\...', Array, true)
+#3 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(69): view('Modules\\gudang\\...', Array)
+#4 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(65): App\Libraries\Templates->display('gudang', '/add')
+#5 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->tambah()
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-03 11:56:02 --> Cannot use object of type stdClass as array
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\gudang\\...', Array, true)
+#3 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(69): view('Modules\\gudang\\...', Array)
+#4 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(65): App\Libraries\Templates->display('gudang', '/add')
+#5 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->tambah()
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-03 11:57:04 --> Cannot use object of type stdClass as array
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\gudang\\...', Array, true)
+#3 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(69): view('Modules\\gudang\\...', Array)
+#4 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(65): App\Libraries\Templates->display('gudang', '/add')
+#5 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->tambah()
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-03 11:57:29 --> Function name must be a string
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\gudang\\...', Array, true)
+#3 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(70): view('Modules\\gudang\\...', Array)
+#4 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(65): App\Libraries\Templates->display('gudang', '/add')
+#5 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->tambah()
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-03 11:57:33 --> Function name must be a string
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\gudang\\...', Array, true)
+#3 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(70): view('Modules\\gudang\\...', Array)
+#4 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(65): App\Libraries\Templates->display('gudang', '/add')
+#5 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->tambah()
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-03 12:05:57 --> Function name must be a string
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\gudang\\...', Array, true)
+#3 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(70): view('Modules\\gudang\\...', Array)
+#4 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(65): App\Libraries\Templates->display('gudang', '/add')
+#5 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->tambah()
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-03 12:06:48 --> Array to string conversion
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Views\add.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xamphp7.4\\ht...', 3, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xamphp7.4\\ht...')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\gudang\\...', Array, true)
+#4 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(70): view('Modules\\gudang\\...', Array)
+#5 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(65): App\Libraries\Templates->display('gudang', '/add')
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->tambah()
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#8 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-03 12:07:32 --> Array to string conversion
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Views\add.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xamphp7.4\\ht...', 3, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xamphp7.4\\ht...')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\gudang\\...', Array, true)
+#4 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(70): view('Modules\\gudang\\...', Array)
+#5 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(65): App\Libraries\Templates->display('gudang', '/add')
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->tambah()
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#8 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-03 12:07:56 --> Array to string conversion
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Views\add.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xamphp7.4\\ht...', 3, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xamphp7.4\\ht...')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\gudang\\...', Array, true)
+#4 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(70): view('Modules\\gudang\\...', Array)
+#5 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(65): App\Libraries\Templates->display('gudang', '/add')
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->tambah()
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#8 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-03 12:07:57 --> Array to string conversion
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Views\add.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xamphp7.4\\ht...', 3, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xamphp7.4\\ht...')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\gudang\\...', Array, true)
+#4 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(70): view('Modules\\gudang\\...', Array)
+#5 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(65): App\Libraries\Templates->display('gudang', '/add')
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->tambah()
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#8 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-03 01:51:14 --> Undefined property: Modules\Gudang\Controllers\Gudang::$cname
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 65, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->tambah()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-03 01:52:10 --> Undefined property: Modules\Gudang\Controllers\Gudang::$cname
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 65, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->tambah()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-03 01:52:11 --> Undefined property: Modules\Gudang\Controllers\Gudang::$cname
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 65, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->tambah()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-03 01:52:19 --> Undefined property: Modules\Gudang\Controllers\Gudang::$cname
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 65, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->tambah()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-03 01:52:20 --> Undefined property: Modules\Gudang\Controllers\Gudang::$cname
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 65, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->tambah()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-03 01:52:22 --> Undefined property: Modules\Gudang\Controllers\Gudang::$button_export
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 19, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->index()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-03 01:52:24 --> Undefined property: Modules\Gudang\Controllers\Gudang::$button_export
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 19, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->index()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-03 01:52:49 --> Undefined property: Modules\Gudang\Controllers\Gudang::$button_export
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 19, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->index()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-03 01:52:50 --> Undefined property: Modules\Gudang\Controllers\Gudang::$button_export
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 19, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->index()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

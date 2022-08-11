@@ -1,0 +1,338 @@
+CRITICAL - 2022-02-04 11:03:15 --> Undefined index: status
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xamphp7.4\\ht...', 96, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->do_tambah()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-04 11:04:21 --> Undefined index: status
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xamphp7.4\\ht...', 96, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->do_tambah()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-04 11:04:30 --> Undefined index: status
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(96): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xamphp7.4\\ht...', 96, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->do_tambah()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-04 11:20:28 --> Array to string conversion
+#0 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xamphp7.4\\ht...', 68, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(135): App\Libraries\Templates->display('gudang/edit', Array)
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->edit()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-04 11:22:57 --> Array to string conversion
+#0 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xamphp7.4\\ht...', 68, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(135): App\Libraries\Templates->display('gudang/edit/OA', Array)
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->edit()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-04 11:22:58 --> Array to string conversion
+#0 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xamphp7.4\\ht...', 68, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(135): App\Libraries\Templates->display('gudang/edit/OA', Array)
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->edit()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-04 11:23:38 --> Array to string conversion
+#0 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xamphp7.4\\ht...', 68, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(135): App\Libraries\Templates->display('gudang/edit/OA', Array)
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->edit()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-04 11:24:21 --> Array to string conversion
+#0 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xamphp7.4\\ht...', 68, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(135): App\Libraries\Templates->display('gudang/edit/OA', Array)
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->edit()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-04 11:24:22 --> Array to string conversion
+#0 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xamphp7.4\\ht...', 68, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(135): App\Libraries\Templates->display('gudang/edit/OA', Array)
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->edit()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-04 11:24:59 --> Array to string conversion
+#0 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xamphp7.4\\ht...', 68, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(135): App\Libraries\Templates->display('gudang/edit/OA', Array)
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->edit()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-04 11:27:32 --> Array to string conversion
+#0 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xamphp7.4\\ht...', 68, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(135): App\Libraries\Templates->display('gudang/edit/OA', Array)
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->edit()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-04 11:28:44 --> Array to string conversion
+#0 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xamphp7.4\\ht...', 68, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(135): App\Libraries\Templates->display('gudang/edit/OA', Array)
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->edit()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-04 11:30:25 --> Array to string conversion
+#0 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xamphp7.4\\ht...', 68, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(135): App\Libraries\Templates->display('gudang/edit', Array)
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->edit()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-04 11:30:40 --> Array to string conversion
+#0 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xamphp7.4\\ht...', 68, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(135): App\Libraries\Templates->display('gudang/edit', Array)
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->edit()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-04 11:30:50 --> Array to string conversion
+#0 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xamphp7.4\\ht...', 68, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(133): App\Libraries\Templates->display('gudang/edit', Array)
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->edit()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-04 11:30:51 --> Array to string conversion
+#0 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xamphp7.4\\ht...', 68, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(133): App\Libraries\Templates->display('gudang/edit', Array)
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->edit()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-04 11:31:07 --> Array to string conversion
+#0 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xamphp7.4\\ht...', 68, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(135): App\Libraries\Templates->display('gudang/edit', Array)
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->edit()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-04 11:31:08 --> Array to string conversion
+#0 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xamphp7.4\\ht...', 68, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(135): App\Libraries\Templates->display('gudang/edit', Array)
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->edit()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-04 11:44:53 --> Undefined property: stdClass::$kode_layanan
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Layanan\Controllers\Layanan.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 35, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Layanan\Controllers\Layanan->get_data()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Layanan\Controllers\Layanan))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-04 12:53:01 --> Trying to get property 'status' of non-object
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Layanan\Controllers\Layanan.php(230): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xamphp7.4\\ht...', 230, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Layanan\Controllers\Layanan->ubah_status()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Layanan\Controllers\Layanan))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-04 12:54:40 --> Trying to get property 'status' of non-object
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Layanan\Controllers\Layanan.php(230): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xamphp7.4\\ht...', 230, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Layanan\Controllers\Layanan->ubah_status()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Layanan\Controllers\Layanan))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-04 12:58:01 --> Call to a member function flashdata() on null
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\layanan...', Array, true)
+#3 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(68): view('Modules\\layanan...', Array)
+#4 C:\xamphp7.4\htdocs\endque_lion\modules\Layanan\Controllers\Layanan.php(64): App\Libraries\Templates->display('layanan', '/add')
+#5 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Layanan\Controllers\Layanan->tambah()
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Layanan\Controllers\Layanan))
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-04 00:29:50 --> Class 'Modules\Log\Models\M_jenis_kendaraan' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Jenis_kendaraan\Controllers\Jenis_kendaraan.php(11): App\Controllers\MikaController->__construct()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(802): Modules\Jenis_kendaraan\Controllers\Jenis_kendaraan->__construct()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-04 13:37:08 --> Undefined property: Modules\Tujuan\Controllers\Tujuan::$m_tujuan
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Tujuan\Controllers\Tujuan.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 29, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Tujuan\Controllers\Tujuan->get_data()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Tujuan\Controllers\Tujuan))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-04 00:42:17 --> Cannot declare class Modules\Jenis_kendaraan\Models\M_jenis_kendaraan, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-02-04 13:43:10 --> Unknown column 'nama_kabkot' in 'field list'
+CRITICAL - 2022-02-04 13:43:10 --> Unknown column 'nama_kabkot' in 'field list'
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_tuju...', 0)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_tuju...')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_tuju...')
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id_tuju...', Array, false)
+#4 C:\xamphp7.4\htdocs\endque_lion\modules\Tujuan\Models\M_tujuan.php(59): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamphp7.4\htdocs\endque_lion\modules\Tujuan\Controllers\Tujuan.php(29): Modules\Tujuan\Models\M_tujuan->getDatatables()
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Tujuan\Controllers\Tujuan->get_data()
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Tujuan\Controllers\Tujuan))
+#8 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-04 00:49:45 --> Cannot declare class Modules\Jenis_kendaraan\Models\M_jenis_kendaraan, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-04 14:04:06 --> Undefined property: stdClass::$nama_logistik
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Logistik\Controllers\Logistik.php(238): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 238, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Logistik\Controllers\Logistik->ubah_status()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Logistik\Controllers\Logistik))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-04 14:04:12 --> Undefined property: stdClass::$nama_logistik
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Logistik\Controllers\Logistik.php(238): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 238, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Logistik\Controllers\Logistik->ubah_status()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Logistik\Controllers\Logistik))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-04 14:04:22 --> Trying to get property 'id_vendor' of non-object
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Logistik\Views\add.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xamphp7.4\\ht...', 34, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xamphp7.4\\ht...')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\logisti...', Array, true)
+#4 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(68): view('Modules\\logisti...', Array)
+#5 C:\xamphp7.4\htdocs\endque_lion\modules\Logistik\Controllers\Logistik.php(72): App\Libraries\Templates->display('logistik', '/add', Array)
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Logistik\Controllers\Logistik->tambah()
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Logistik\Controllers\Logistik))
+#8 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-04 14:12:00 --> trim() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'trim() expects ...', 'C:\\xamphp7.4\\ht...', 279, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Validation\Validation.php(279): trim(Array)
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('nopol', 'No. Polisi', Array, Array, Array)
+#3 C:\xamphp7.4\htdocs\endque_lion\modules\Logistik\Controllers\Logistik.php(83): CodeIgniter\Validation\Validation->run()
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Logistik\Controllers\Logistik->do_tambah()
+#5 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Logistik\Controllers\Logistik))
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-04 14:14:13 --> Undefined index: nama_logistik
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Logistik\Controllers\Logistik.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xamphp7.4\\ht...', 110, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Logistik\Controllers\Logistik->do_tambah()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Logistik\Controllers\Logistik))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-04 14:22:16 --> Undefined property: stdClass::$nama_logistik
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Logistik\Controllers\Logistik.php(204): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 204, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Logistik\Controllers\Logistik->hapus()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Logistik\Controllers\Logistik))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-04 14:30:28 --> explode() expects parameter 2 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode() expec...', 'C:\\xamphp7.4\\ht...', 141, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Logistik\Controllers\Logistik.php(141): explode(' ', Array)
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Logistik\Controllers\Logistik->edit()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Logistik\Controllers\Logistik))
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-04 14:32:10 --> explode() expects parameter 2 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode() expec...', 'C:\\xamphp7.4\\ht...', 141, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Logistik\Controllers\Logistik.php(141): explode(' ', Array)
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Logistik\Controllers\Logistik->edit()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Logistik\Controllers\Logistik))
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-04 14:32:24 --> explode() expects parameter 2 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode() expec...', 'C:\\xamphp7.4\\ht...', 141, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Logistik\Controllers\Logistik.php(141): explode(' ', Array)
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Logistik\Controllers\Logistik->edit()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Logistik\Controllers\Logistik))
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-04 14:34:04 --> explode() expects parameter 2 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode() expec...', 'C:\\xamphp7.4\\ht...', 141, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Logistik\Controllers\Logistik.php(141): explode(' ', Array)
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Logistik\Controllers\Logistik->edit()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Logistik\Controllers\Logistik))
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-04 14:36:22 --> explode() expects parameter 2 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode() expec...', 'C:\\xamphp7.4\\ht...', 141, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Logistik\Controllers\Logistik.php(141): explode(' ', Array)
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Logistik\Controllers\Logistik->edit()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Logistik\Controllers\Logistik))
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-04 14:37:46 --> explode() expects parameter 2 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode() expec...', 'C:\\xamphp7.4\\ht...', 141, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Logistik\Controllers\Logistik.php(141): explode(' ', Array)
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Logistik\Controllers\Logistik->edit()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Logistik\Controllers\Logistik))
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-04 14:39:18 --> explode() expects parameter 2 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode() expec...', 'C:\\xamphp7.4\\ht...', 141, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Logistik\Controllers\Logistik.php(141): explode(' ', Array)
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Logistik\Controllers\Logistik->edit()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Logistik\Controllers\Logistik))
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-04 14:40:52 --> explode() expects parameter 2 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode() expec...', 'C:\\xamphp7.4\\ht...', 141, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Logistik\Controllers\Logistik.php(141): explode(' ', Array)
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Logistik\Controllers\Logistik->edit()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Logistik\Controllers\Logistik))
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-04 14:42:04 --> explode() expects parameter 2 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode() expec...', 'C:\\xamphp7.4\\ht...', 141, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Logistik\Controllers\Logistik.php(141): explode(' ', Array)
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Logistik\Controllers\Logistik->edit()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Logistik\Controllers\Logistik))
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-04 14:44:29 --> trim() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'trim() expects ...', 'C:\\xamphp7.4\\ht...', 279, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Validation\Validation.php(279): trim(Array)
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('nopol', 'No. Polisi', Array, Array, Array)
+#3 C:\xamphp7.4\htdocs\endque_lion\modules\Logistik\Controllers\Logistik.php(153): CodeIgniter\Validation\Validation->run()
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Logistik\Controllers\Logistik->do_ubah()
+#5 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Logistik\Controllers\Logistik))
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

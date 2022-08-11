@@ -1,0 +1,1546 @@
+CRITICAL - 2022-01-25 10:00:46 --> Trying to get property 'nama' of non-object
+#0 D:\php7.4\htdocs\endque_lion\app\Views\template\header.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\php7.4\\htdoc...', 27, Array)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\php7.4\\htdoc...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(424): CodeIgniter\View\View->render('template/header', NULL, true)
+#4 D:\php7.4\htdocs\endque_lion\app\Views\template\template.php(78): CodeIgniter\View\View->include('template/header')
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\php7.4\\htdoc...')
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('template/templa...', Array, true)
+#8 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\dashboa...', Array, true)
+#9 D:\php7.4\htdocs\endque_lion\app\Libraries\Templates.php(26): view('Modules\\dashboa...', Array)
+#10 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(98): App\Libraries\Templates->display('dashboard', 'index', Array)
+#11 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->index()
+#12 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#13 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#15 {main}
+ERROR - 2022-01-25 10:24:51 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:24:51 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT\r\n       ...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(158): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_table_waktu_tunggu()
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-25 10:24:56 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:24:56 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT\r\n       ...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(158): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_table_waktu_tunggu()
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-25 10:24:56 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:24:56 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT count(*)...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT count(*)...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(*)...')
+#3 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT count(*)...', Array, false)
+#4 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(116): CodeIgniter\Database\BaseBuilder->get(1)
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_chart()
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#7 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-01-25 10:25:01 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:25:01 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT\r\n       ...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(158): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_table_waktu_tunggu()
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-25 10:25:06 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:25:06 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT\r\n       ...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(158): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_table_waktu_tunggu()
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-25 10:25:11 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:25:11 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT count(*)...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT count(*)...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(*)...')
+#3 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT count(*)...', Array, false)
+#4 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(116): CodeIgniter\Database\BaseBuilder->get(1)
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_chart()
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#7 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-01-25 10:25:11 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:25:11 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT\r\n       ...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(158): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_table_waktu_tunggu()
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-25 10:25:16 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:25:16 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT\r\n       ...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(158): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_table_waktu_tunggu()
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-25 10:25:21 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:25:21 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT\r\n       ...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(158): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_table_waktu_tunggu()
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-25 10:25:21 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:25:21 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT\r\n       ...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(138): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_table_waktu_loket()
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-25 10:25:26 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:25:26 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT count(*)...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT count(*)...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(*)...')
+#3 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT count(*)...', Array, false)
+#4 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(116): CodeIgniter\Database\BaseBuilder->get(1)
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_chart()
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#7 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-01-25 10:25:26 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:25:26 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT\r\n       ...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(158): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_table_waktu_tunggu()
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-25 10:25:31 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:25:31 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT\r\n       ...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(158): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_table_waktu_tunggu()
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-25 10:25:36 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:25:36 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT\r\n       ...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(158): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_table_waktu_tunggu()
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-25 10:25:41 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:25:41 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT count(*)...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT count(*)...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(*)...')
+#3 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT count(*)...', Array, false)
+#4 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(116): CodeIgniter\Database\BaseBuilder->get(1)
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_chart()
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#7 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-01-25 10:25:41 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:25:41 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT\r\n       ...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(158): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_table_waktu_tunggu()
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-25 10:25:46 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:25:46 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT\r\n       ...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(158): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_table_waktu_tunggu()
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-25 10:25:51 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:25:51 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT\r\n       ...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(158): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_table_waktu_tunggu()
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-25 10:25:56 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:25:56 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT\r\n       ...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(158): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_table_waktu_tunggu()
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-25 10:25:56 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:25:56 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT count(*)...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT count(*)...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(*)...')
+#3 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT count(*)...', Array, false)
+#4 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(116): CodeIgniter\Database\BaseBuilder->get(1)
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_chart()
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#7 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-01-25 10:26:01 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:26:01 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT\r\n       ...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(158): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_table_waktu_tunggu()
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-25 10:26:06 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:26:06 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT\r\n       ...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(158): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_table_waktu_tunggu()
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-25 10:26:11 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:26:11 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT\r\n       ...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(158): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_table_waktu_tunggu()
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-25 10:26:11 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:26:11 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT count(*)...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT count(*)...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(*)...')
+#3 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT count(*)...', Array, false)
+#4 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(116): CodeIgniter\Database\BaseBuilder->get(1)
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_chart()
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#7 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-01-25 10:26:11 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:26:11 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT\r\n       ...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(138): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_table_waktu_loket()
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-25 10:26:16 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:26:16 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT\r\n       ...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(158): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_table_waktu_tunggu()
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-25 10:26:21 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:26:21 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT\r\n       ...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(158): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_table_waktu_tunggu()
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-25 10:26:26 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:26:26 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT\r\n       ...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(158): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_table_waktu_tunggu()
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-25 10:26:26 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:26:26 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT count(*)...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT count(*)...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(*)...')
+#3 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT count(*)...', Array, false)
+#4 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(116): CodeIgniter\Database\BaseBuilder->get(1)
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_chart()
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#7 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-01-25 10:26:31 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:26:31 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT\r\n       ...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(158): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_table_waktu_tunggu()
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-25 10:26:36 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:26:36 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT\r\n       ...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(158): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_table_waktu_tunggu()
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-25 10:26:41 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:26:41 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT\r\n       ...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(158): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_table_waktu_tunggu()
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-25 10:26:41 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:26:41 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT count(*)...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT count(*)...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(*)...')
+#3 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT count(*)...', Array, false)
+#4 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(116): CodeIgniter\Database\BaseBuilder->get(1)
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_chart()
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#7 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-01-25 10:26:46 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:26:46 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT\r\n       ...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(158): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_table_waktu_tunggu()
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-25 10:26:51 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:26:51 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT\r\n       ...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(158): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_table_waktu_tunggu()
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-25 10:26:56 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:26:56 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT count(*)...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT count(*)...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(*)...')
+#3 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT count(*)...', Array, false)
+#4 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(116): CodeIgniter\Database\BaseBuilder->get(1)
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_chart()
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#7 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-01-25 10:26:56 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:26:56 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT\r\n       ...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(158): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_table_waktu_tunggu()
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-25 10:27:01 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:27:01 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT\r\n       ...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(158): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_table_waktu_tunggu()
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-25 10:27:01 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:27:01 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT\r\n       ...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(138): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_table_waktu_loket()
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-25 10:27:06 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:27:06 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT\r\n       ...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(158): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_table_waktu_tunggu()
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-25 10:27:11 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:27:11 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT\r\n       ...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(158): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_table_waktu_tunggu()
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-25 10:27:11 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:27:11 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT count(*)...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT count(*)...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(*)...')
+#3 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT count(*)...', Array, false)
+#4 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(116): CodeIgniter\Database\BaseBuilder->get(1)
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_chart()
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#7 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-01-25 10:27:16 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:27:16 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT\r\n       ...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(158): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_table_waktu_tunggu()
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-25 10:27:21 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:27:21 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT\r\n       ...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(158): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_table_waktu_tunggu()
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-25 10:27:26 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:27:26 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT\r\n       ...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(158): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_table_waktu_tunggu()
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-25 10:27:26 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:27:26 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT count(*)...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT count(*)...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(*)...')
+#3 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT count(*)...', Array, false)
+#4 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(116): CodeIgniter\Database\BaseBuilder->get(1)
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_chart()
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#7 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-01-25 10:27:31 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:27:31 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT\r\n       ...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(158): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_table_waktu_tunggu()
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-25 10:27:36 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:27:36 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT\r\n       ...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(158): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_table_waktu_tunggu()
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-25 10:27:41 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:27:41 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT count(*)...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT count(*)...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(*)...')
+#3 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT count(*)...', Array, false)
+#4 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(116): CodeIgniter\Database\BaseBuilder->get(1)
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_chart()
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#7 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-01-25 10:27:41 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:27:41 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT\r\n       ...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(158): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_table_waktu_tunggu()
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-25 10:27:46 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:27:46 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT\r\n       ...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(158): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_table_waktu_tunggu()
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-25 10:27:51 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:27:51 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT\r\n       ...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(138): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_table_waktu_loket()
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-25 10:27:51 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:27:51 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT\r\n       ...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(158): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_table_waktu_tunggu()
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-25 10:27:56 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:27:56 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT\r\n       ...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(158): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_table_waktu_tunggu()
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-25 10:27:56 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:27:56 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT count(*)...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT count(*)...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(*)...')
+#3 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT count(*)...', Array, false)
+#4 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(116): CodeIgniter\Database\BaseBuilder->get(1)
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_chart()
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#7 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-01-25 10:28:01 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:28:01 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT\r\n       ...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(158): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_table_waktu_tunggu()
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-25 10:28:06 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:28:06 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT\r\n       ...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(158): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_table_waktu_tunggu()
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-25 10:28:11 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:28:11 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT\r\n       ...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(158): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_table_waktu_tunggu()
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-25 10:28:11 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:28:11 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT count(*)...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT count(*)...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(*)...')
+#3 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT count(*)...', Array, false)
+#4 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(116): CodeIgniter\Database\BaseBuilder->get(1)
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_chart()
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#7 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-01-25 10:28:16 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:28:16 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT\r\n       ...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(158): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_table_waktu_tunggu()
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-25 10:28:21 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:28:21 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT\r\n       ...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(158): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_table_waktu_tunggu()
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-25 10:28:26 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:28:26 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT count(*)...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT count(*)...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(*)...')
+#3 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT count(*)...', Array, false)
+#4 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(116): CodeIgniter\Database\BaseBuilder->get(1)
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_chart()
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#7 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-01-25 10:28:26 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:28:26 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT\r\n       ...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(158): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_table_waktu_tunggu()
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-25 10:28:31 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:28:31 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT\r\n       ...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(158): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_table_waktu_tunggu()
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-25 10:28:36 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:28:36 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT\r\n       ...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(158): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_table_waktu_tunggu()
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-25 10:28:44 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:28:44 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT\r\n       ...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(158): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_table_waktu_tunggu()
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-25 10:28:44 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:28:44 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT count(*)...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT count(*)...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(*)...')
+#3 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT count(*)...', Array, false)
+#4 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(116): CodeIgniter\Database\BaseBuilder->get(1)
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_chart()
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#7 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-01-25 10:28:44 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:28:45 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT\r\n       ...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(138): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_table_waktu_loket()
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-25 10:28:45 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:28:45 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT\r\n       ...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(158): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_table_waktu_tunggu()
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-25 10:44:53 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:44:53 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT count(*)...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT count(*)...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(*)...')
+#3 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT count(*)...', Array, false)
+#4 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(29): CodeIgniter\Database\BaseBuilder->get(1)
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->index()
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#7 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-01-25 10:49:00 --> Unknown column 'tanggal' in 'where clause'
+CRITICAL - 2022-01-25 10:49:00 --> Unknown column 'tanggal' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT count(*)...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT count(*)...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(*)...')
+#3 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT count(*)...', Array, false)
+#4 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(29): CodeIgniter\Database\BaseBuilder->get(1)
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->index()
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#7 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-25 10:56:36 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\php7.4\\htdoc...', 25, Array)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->index()
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-25 11:09:35 --> Unknown column 'status' in 'where clause'
+CRITICAL - 2022-01-25 11:09:35 --> Unknown column 'status' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\php7.4\htdocs\endque_lion\app\Libraries\Templates.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\php7.4\htdocs\endque_lion\app\Libraries\Templates.php(23): App\Libraries\Templates->generate_menu(Object(stdClass))
+#6 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(31): App\Libraries\Templates->display('dashboard', 'index', Array)
+#7 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->index()
+#8 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#9 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-01-25 11:12:34 --> Unknown column 'status' in 'where clause'
+CRITICAL - 2022-01-25 11:12:34 --> Unknown column 'status' in 'where clause'
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\php7.4\htdocs\endque_lion\app\Libraries\Templates.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\php7.4\htdocs\endque_lion\app\Libraries\Templates.php(23): App\Libraries\Templates->generate_menu(Object(stdClass))
+#6 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(30): App\Libraries\Templates->display('dashboard', 'index', Array)
+#7 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->index()
+#8 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#9 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-01-25 11:13:40 --> Argument 1 passed to _get_uri() must be of the type string, null given, called in D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Helpers\url_helper.php on line 87
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Helpers\url_helper.php(87): _get_uri(NULL, Object(Config\App))
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Helpers\url_helper.php(106): site_url(NULL, NULL, Object(Config\App))
+#2 D:\php7.4\htdocs\endque_lion\app\Views\template\sidebar.php(42): base_url(NULL)
+#3 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\php7.4\\htdoc...')
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(424): CodeIgniter\View\View->render('template/sideba...', NULL, true)
+#6 D:\php7.4\htdocs\endque_lion\app\Views\template\template.php(86): CodeIgniter\View\View->include('template/sideba...')
+#7 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\php7.4\\htdoc...')
+#8 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#9 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('template/templa...', Array, true)
+#10 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\dashboa...', Array, true)
+#11 D:\php7.4\htdocs\endque_lion\app\Libraries\Templates.php(26): view('Modules\\dashboa...', Array)
+#12 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(30): App\Libraries\Templates->display('dashboard', 'index', Array)
+#13 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->index()
+#14 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#15 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2022-01-25 11:16:15 --> Argument 1 passed to _get_uri() must be of the type string, null given, called in D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Helpers\url_helper.php on line 87
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Helpers\url_helper.php(87): _get_uri(NULL, Object(Config\App))
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Helpers\url_helper.php(106): site_url(NULL, NULL, Object(Config\App))
+#2 D:\php7.4\htdocs\endque_lion\app\Views\template\sidebar.php(42): base_url(NULL)
+#3 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\php7.4\\htdoc...')
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(424): CodeIgniter\View\View->render('template/sideba...', NULL, true)
+#6 D:\php7.4\htdocs\endque_lion\app\Views\template\template.php(86): CodeIgniter\View\View->include('template/sideba...')
+#7 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\php7.4\\htdoc...')
+#8 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#9 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('template/templa...', Array, true)
+#10 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\dashboa...', Array, true)
+#11 D:\php7.4\htdocs\endque_lion\app\Libraries\Templates.php(26): view('Modules\\dashboa...', Array)
+#12 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(30): App\Libraries\Templates->display('dashboard', 'index', Array)
+#13 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->index()
+#14 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#15 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2022-01-25 11:16:18 --> Argument 1 passed to _get_uri() must be of the type string, null given, called in D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Helpers\url_helper.php on line 87
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Helpers\url_helper.php(87): _get_uri(NULL, Object(Config\App))
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Helpers\url_helper.php(106): site_url(NULL, NULL, Object(Config\App))
+#2 D:\php7.4\htdocs\endque_lion\app\Views\template\sidebar.php(42): base_url(NULL)
+#3 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\php7.4\\htdoc...')
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(424): CodeIgniter\View\View->render('template/sideba...', NULL, true)
+#6 D:\php7.4\htdocs\endque_lion\app\Views\template\template.php(86): CodeIgniter\View\View->include('template/sideba...')
+#7 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\php7.4\\htdoc...')
+#8 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#9 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('template/templa...', Array, true)
+#10 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\dashboa...', Array, true)
+#11 D:\php7.4\htdocs\endque_lion\app\Libraries\Templates.php(26): view('Modules\\dashboa...', Array)
+#12 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(30): App\Libraries\Templates->display('dashboard', 'index', Array)
+#13 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->index()
+#14 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#15 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2022-01-25 11:17:17 --> Argument 1 passed to _get_uri() must be of the type string, null given, called in D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Helpers\url_helper.php on line 87
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Helpers\url_helper.php(87): _get_uri(NULL, Object(Config\App))
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Helpers\url_helper.php(106): site_url(NULL, NULL, Object(Config\App))
+#2 D:\php7.4\htdocs\endque_lion\app\Views\template\sidebar.php(42): base_url(NULL)
+#3 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\php7.4\\htdoc...')
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(424): CodeIgniter\View\View->render('template/sideba...', NULL, true)
+#6 D:\php7.4\htdocs\endque_lion\app\Views\template\template.php(86): CodeIgniter\View\View->include('template/sideba...')
+#7 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\php7.4\\htdoc...')
+#8 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#9 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('template/templa...', Array, true)
+#10 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\dashboa...', Array, true)
+#11 D:\php7.4\htdocs\endque_lion\app\Libraries\Templates.php(26): view('Modules\\dashboa...', Array)
+#12 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(30): App\Libraries\Templates->display('dashboard', 'index', Array)
+#13 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->index()
+#14 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#15 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2022-01-25 11:17:18 --> Argument 1 passed to _get_uri() must be of the type string, null given, called in D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Helpers\url_helper.php on line 87
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Helpers\url_helper.php(87): _get_uri(NULL, Object(Config\App))
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Helpers\url_helper.php(106): site_url(NULL, NULL, Object(Config\App))
+#2 D:\php7.4\htdocs\endque_lion\app\Views\template\sidebar.php(42): base_url(NULL)
+#3 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\php7.4\\htdoc...')
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(424): CodeIgniter\View\View->render('template/sideba...', NULL, true)
+#6 D:\php7.4\htdocs\endque_lion\app\Views\template\template.php(86): CodeIgniter\View\View->include('template/sideba...')
+#7 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\php7.4\\htdoc...')
+#8 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#9 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('template/templa...', Array, true)
+#10 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\dashboa...', Array, true)
+#11 D:\php7.4\htdocs\endque_lion\app\Libraries\Templates.php(26): view('Modules\\dashboa...', Array)
+#12 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(30): App\Libraries\Templates->display('dashboard', 'index', Array)
+#13 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->index()
+#14 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#15 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2022-01-25 11:17:28 --> Argument 1 passed to _get_uri() must be of the type string, null given, called in D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Helpers\url_helper.php on line 87
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Helpers\url_helper.php(87): _get_uri(NULL, Object(Config\App))
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Helpers\url_helper.php(106): site_url(NULL, NULL, Object(Config\App))
+#2 D:\php7.4\htdocs\endque_lion\app\Views\template\sidebar.php(42): base_url(NULL)
+#3 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\php7.4\\htdoc...')
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(424): CodeIgniter\View\View->render('template/sideba...', NULL, true)
+#6 D:\php7.4\htdocs\endque_lion\app\Views\template\template.php(86): CodeIgniter\View\View->include('template/sideba...')
+#7 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\php7.4\\htdoc...')
+#8 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#9 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('template/templa...', Array, true)
+#10 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\dashboa...', Array, true)
+#11 D:\php7.4\htdocs\endque_lion\app\Libraries\Templates.php(26): view('Modules\\dashboa...', Array)
+#12 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(30): App\Libraries\Templates->display('dashboard', 'index', Array)
+#13 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->index()
+#14 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#15 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2022-01-25 11:17:29 --> Argument 1 passed to _get_uri() must be of the type string, null given, called in D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Helpers\url_helper.php on line 87
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Helpers\url_helper.php(87): _get_uri(NULL, Object(Config\App))
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Helpers\url_helper.php(106): site_url(NULL, NULL, Object(Config\App))
+#2 D:\php7.4\htdocs\endque_lion\app\Views\template\sidebar.php(42): base_url(NULL)
+#3 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\php7.4\\htdoc...')
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(424): CodeIgniter\View\View->render('template/sideba...', NULL, true)
+#6 D:\php7.4\htdocs\endque_lion\app\Views\template\template.php(86): CodeIgniter\View\View->include('template/sideba...')
+#7 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\php7.4\\htdoc...')
+#8 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#9 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('template/templa...', Array, true)
+#10 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\dashboa...', Array, true)
+#11 D:\php7.4\htdocs\endque_lion\app\Libraries\Templates.php(26): view('Modules\\dashboa...', Array)
+#12 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(30): App\Libraries\Templates->display('dashboard', 'index', Array)
+#13 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->index()
+#14 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#15 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2022-01-25 11:17:44 --> Argument 1 passed to _get_uri() must be of the type string, null given, called in D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Helpers\url_helper.php on line 87
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Helpers\url_helper.php(87): _get_uri(NULL, Object(Config\App))
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Helpers\url_helper.php(106): site_url(NULL, NULL, Object(Config\App))
+#2 D:\php7.4\htdocs\endque_lion\app\Views\template\sidebar.php(42): base_url(NULL)
+#3 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\php7.4\\htdoc...')
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(424): CodeIgniter\View\View->render('template/sideba...', NULL, true)
+#6 D:\php7.4\htdocs\endque_lion\app\Views\template\template.php(86): CodeIgniter\View\View->include('template/sideba...')
+#7 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\php7.4\\htdoc...')
+#8 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#9 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('template/templa...', Array, true)
+#10 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\dashboa...', Array, true)
+#11 D:\php7.4\htdocs\endque_lion\app\Libraries\Templates.php(26): view('Modules\\dashboa...', Array)
+#12 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(30): App\Libraries\Templates->display('dashboard', 'index', Array)
+#13 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->index()
+#14 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#15 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2022-01-25 11:19:16 --> Argument 1 passed to _get_uri() must be of the type string, null given, called in D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Helpers\url_helper.php on line 87
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Helpers\url_helper.php(87): _get_uri(NULL, Object(Config\App))
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Helpers\url_helper.php(106): site_url(NULL, NULL, Object(Config\App))
+#2 D:\php7.4\htdocs\endque_lion\app\Views\template\sidebar.php(42): base_url(NULL)
+#3 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\php7.4\\htdoc...')
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(424): CodeIgniter\View\View->render('template/sideba...', NULL, true)
+#6 D:\php7.4\htdocs\endque_lion\app\Views\template\template.php(86): CodeIgniter\View\View->include('template/sideba...')
+#7 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\php7.4\\htdoc...')
+#8 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#9 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('template/templa...', Array, true)
+#10 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\dashboa...', Array, true)
+#11 D:\php7.4\htdocs\endque_lion\app\Libraries\Templates.php(26): view('Modules\\dashboa...', Array)
+#12 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(30): App\Libraries\Templates->display('dashboard', 'index', Array)
+#13 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->index()
+#14 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#15 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2022-01-25 11:19:17 --> Argument 1 passed to _get_uri() must be of the type string, null given, called in D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Helpers\url_helper.php on line 87
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Helpers\url_helper.php(87): _get_uri(NULL, Object(Config\App))
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Helpers\url_helper.php(106): site_url(NULL, NULL, Object(Config\App))
+#2 D:\php7.4\htdocs\endque_lion\app\Views\template\sidebar.php(42): base_url(NULL)
+#3 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\php7.4\\htdoc...')
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(424): CodeIgniter\View\View->render('template/sideba...', NULL, true)
+#6 D:\php7.4\htdocs\endque_lion\app\Views\template\template.php(86): CodeIgniter\View\View->include('template/sideba...')
+#7 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\php7.4\\htdoc...')
+#8 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#9 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('template/templa...', Array, true)
+#10 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\dashboa...', Array, true)
+#11 D:\php7.4\htdocs\endque_lion\app\Libraries\Templates.php(26): view('Modules\\dashboa...', Array)
+#12 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(30): App\Libraries\Templates->display('dashboard', 'index', Array)
+#13 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->index()
+#14 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#15 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2022-01-25 11:19:22 --> Undefined variable: cname
+#0 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Views\index.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\php7.4\\htdoc...', 17, Array)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\php7.4\\htdoc...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\dashboa...', Array, true)
+#4 D:\php7.4\htdocs\endque_lion\app\Libraries\Templates.php(26): view('Modules\\dashboa...', Array)
+#5 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(30): App\Libraries\Templates->display('dashboard', 'index')
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->index()
+#7 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#8 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-25 11:19:23 --> Undefined variable: cname
+#0 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Views\index.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\php7.4\\htdoc...', 17, Array)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\php7.4\\htdoc...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\dashboa...', Array, true)
+#4 D:\php7.4\htdocs\endque_lion\app\Libraries\Templates.php(26): view('Modules\\dashboa...', Array)
+#5 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(30): App\Libraries\Templates->display('dashboard', 'index')
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->index()
+#7 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#8 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-25 11:19:41 --> Argument 1 passed to _get_uri() must be of the type string, null given, called in D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Helpers\url_helper.php on line 87
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Helpers\url_helper.php(87): _get_uri(NULL, Object(Config\App))
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Helpers\url_helper.php(106): site_url(NULL, NULL, Object(Config\App))
+#2 D:\php7.4\htdocs\endque_lion\app\Views\template\sidebar.php(42): base_url(NULL)
+#3 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\php7.4\\htdoc...')
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(424): CodeIgniter\View\View->render('template/sideba...', NULL, true)
+#6 D:\php7.4\htdocs\endque_lion\app\Views\template\template.php(86): CodeIgniter\View\View->include('template/sideba...')
+#7 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\php7.4\\htdoc...')
+#8 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#9 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('template/templa...', Array, true)
+#10 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\dashboa...', Array, true)
+#11 D:\php7.4\htdocs\endque_lion\app\Libraries\Templates.php(26): view('Modules\\dashboa...', Array)
+#12 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(30): App\Libraries\Templates->display('dashboard', 'index', Array)
+#13 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->index()
+#14 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#15 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2022-01-25 11:22:31 --> Argument 1 passed to _get_uri() must be of the type string, null given, called in D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Helpers\url_helper.php on line 87
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Helpers\url_helper.php(87): _get_uri(NULL, NULL)
+#1 D:\php7.4\htdocs\endque_lion\app\Views\template\sidebar.php(42): site_url(NULL)
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\php7.4\\htdoc...')
+#3 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(424): CodeIgniter\View\View->render('template/sideba...', NULL, true)
+#5 D:\php7.4\htdocs\endque_lion\app\Views\template\template.php(86): CodeIgniter\View\View->include('template/sideba...')
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\php7.4\\htdoc...')
+#7 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('template/templa...', Array, true)
+#9 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\dashboa...', Array, true)
+#10 D:\php7.4\htdocs\endque_lion\app\Libraries\Templates.php(26): view('Modules\\dashboa...', Array)
+#11 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(30): App\Libraries\Templates->display('dashboard', 'index', Array)
+#12 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->index()
+#13 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#14 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#16 {main}
+CRITICAL - 2022-01-25 11:24:23 --> Argument 1 passed to _get_uri() must be of the type string, null given, called in D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Helpers\url_helper.php on line 87
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Helpers\url_helper.php(87): _get_uri(NULL, NULL)
+#1 D:\php7.4\htdocs\endque_lion\app\Views\template\sidebar.php(43): site_url(NULL)
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\php7.4\\htdoc...')
+#3 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(424): CodeIgniter\View\View->render('template/sideba...', NULL, true)
+#5 D:\php7.4\htdocs\endque_lion\app\Views\template\template.php(86): CodeIgniter\View\View->include('template/sideba...')
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\php7.4\\htdoc...')
+#7 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('template/templa...', Array, true)
+#9 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\dashboa...', Array, true)
+#10 D:\php7.4\htdocs\endque_lion\app\Libraries\Templates.php(26): view('Modules\\dashboa...', Array)
+#11 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(30): App\Libraries\Templates->display('dashboard', 'index', Array)
+#12 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->index()
+#13 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#14 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#16 {main}
+CRITICAL - 2022-01-25 11:24:57 --> Argument 1 passed to _get_uri() must be of the type string, null given, called in D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Helpers\url_helper.php on line 87
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Helpers\url_helper.php(87): _get_uri(NULL, NULL)
+#1 D:\php7.4\htdocs\endque_lion\app\Views\template\sidebar.php(42): site_url(NULL)
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\php7.4\\htdoc...')
+#3 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(424): CodeIgniter\View\View->render('template/sideba...', NULL, true)
+#5 D:\php7.4\htdocs\endque_lion\app\Views\template\template.php(86): CodeIgniter\View\View->include('template/sideba...')
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\php7.4\\htdoc...')
+#7 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('template/templa...', Array, true)
+#9 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\dashboa...', Array, true)
+#10 D:\php7.4\htdocs\endque_lion\app\Libraries\Templates.php(26): view('Modules\\dashboa...', Array)
+#11 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(30): App\Libraries\Templates->display('dashboard', 'index', Array)
+#12 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->index()
+#13 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#14 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#16 {main}
+CRITICAL - 2022-01-25 11:25:30 --> Argument 1 passed to _get_uri() must be of the type string, null given, called in D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Helpers\url_helper.php on line 87
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Helpers\url_helper.php(87): _get_uri(NULL, NULL)
+#1 D:\php7.4\htdocs\endque_lion\app\Views\template\sidebar.php(42): site_url(NULL)
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\php7.4\\htdoc...')
+#3 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(424): CodeIgniter\View\View->render('template/sideba...', NULL, true)
+#5 D:\php7.4\htdocs\endque_lion\app\Views\template\template.php(86): CodeIgniter\View\View->include('template/sideba...')
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\php7.4\\htdoc...')
+#7 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('template/templa...', Array, true)
+#9 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\dashboa...', Array, true)
+#10 D:\php7.4\htdocs\endque_lion\app\Libraries\Templates.php(26): view('Modules\\dashboa...', Array)
+#11 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(30): App\Libraries\Templates->display('dashboard', 'index', Array)
+#12 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->index()
+#13 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#14 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#16 {main}
+CRITICAL - 2022-01-25 11:25:54 --> Undefined variable: tanggal
+#0 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Views\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\php7.4\\htdoc...', 24, Array)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\php7.4\\htdoc...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\dashboa...', Array, true)
+#4 D:\php7.4\htdocs\endque_lion\app\Libraries\Templates.php(26): view('Modules\\dashboa...', Array)
+#5 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(30): App\Libraries\Templates->display('dashboard', 'index', Array)
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->index()
+#7 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#8 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-25 11:25:55 --> Undefined variable: tanggal
+#0 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Views\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\php7.4\\htdoc...', 24, Array)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\php7.4\\htdoc...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\dashboa...', Array, true)
+#4 D:\php7.4\htdocs\endque_lion\app\Libraries\Templates.php(26): view('Modules\\dashboa...', Array)
+#5 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(30): App\Libraries\Templates->display('dashboard', 'index', Array)
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->index()
+#7 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#8 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-25 11:26:06 --> Argument 1 passed to _get_uri() must be of the type string, null given, called in D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Helpers\url_helper.php on line 87
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Helpers\url_helper.php(87): _get_uri(NULL, NULL)
+#1 D:\php7.4\htdocs\endque_lion\app\Views\template\sidebar.php(42): site_url(NULL)
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\php7.4\\htdoc...')
+#3 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(424): CodeIgniter\View\View->render('template/sideba...', NULL, true)
+#5 D:\php7.4\htdocs\endque_lion\app\Views\template\template.php(86): CodeIgniter\View\View->include('template/sideba...')
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\php7.4\\htdoc...')
+#7 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('template/templa...', Array, true)
+#9 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\dashboa...', Array, true)
+#10 D:\php7.4\htdocs\endque_lion\app\Libraries\Templates.php(26): view('Modules\\dashboa...', Array)
+#11 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(30): App\Libraries\Templates->display('dashboard', 'index', Array)
+#12 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->index()
+#13 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#14 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#16 {main}
+CRITICAL - 2022-01-25 11:26:12 --> Argument 1 passed to _get_uri() must be of the type string, null given, called in D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Helpers\url_helper.php on line 87
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Helpers\url_helper.php(87): _get_uri(NULL, NULL)
+#1 D:\php7.4\htdocs\endque_lion\app\Views\template\sidebar.php(42): site_url(NULL)
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\php7.4\\htdoc...')
+#3 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(424): CodeIgniter\View\View->render('template/sideba...', NULL, true)
+#5 D:\php7.4\htdocs\endque_lion\app\Views\template\template.php(86): CodeIgniter\View\View->include('template/sideba...')
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\php7.4\\htdoc...')
+#7 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('template/templa...', Array, true)
+#9 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\dashboa...', Array, true)
+#10 D:\php7.4\htdocs\endque_lion\app\Libraries\Templates.php(26): view('Modules\\dashboa...', Array)
+#11 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(30): App\Libraries\Templates->display('dashboard', 'index', Array)
+#12 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->index()
+#13 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#14 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#16 {main}
+CRITICAL - 2022-01-25 11:27:00 --> Argument 1 passed to _get_uri() must be of the type string, null given, called in D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Helpers\url_helper.php on line 87
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Helpers\url_helper.php(87): _get_uri(NULL, NULL)
+#1 D:\php7.4\htdocs\endque_lion\app\Views\template\sidebar.php(42): site_url(NULL)
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\php7.4\\htdoc...')
+#3 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(424): CodeIgniter\View\View->render('template/sideba...', NULL, true)
+#5 D:\php7.4\htdocs\endque_lion\app\Views\template\template.php(86): CodeIgniter\View\View->include('template/sideba...')
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\php7.4\\htdoc...')
+#7 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('template/templa...', Array, true)
+#9 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\dashboa...', Array, true)
+#10 D:\php7.4\htdocs\endque_lion\app\Libraries\Templates.php(26): view('Modules\\dashboa...', Array)
+#11 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(30): App\Libraries\Templates->display('dashboard', 'index', Array)
+#12 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->index()
+#13 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#14 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#16 {main}
+CRITICAL - 2022-01-25 11:27:02 --> Argument 1 passed to _get_uri() must be of the type string, null given, called in D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Helpers\url_helper.php on line 87
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Helpers\url_helper.php(87): _get_uri(NULL, NULL)
+#1 D:\php7.4\htdocs\endque_lion\app\Views\template\sidebar.php(42): site_url(NULL)
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\php7.4\\htdoc...')
+#3 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(424): CodeIgniter\View\View->render('template/sideba...', NULL, true)
+#5 D:\php7.4\htdocs\endque_lion\app\Views\template\template.php(86): CodeIgniter\View\View->include('template/sideba...')
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\php7.4\\htdoc...')
+#7 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('template/templa...', Array, true)
+#9 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\dashboa...', Array, true)
+#10 D:\php7.4\htdocs\endque_lion\app\Libraries\Templates.php(26): view('Modules\\dashboa...', Array)
+#11 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(30): App\Libraries\Templates->display('dashboard', 'index', Array)
+#12 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->index()
+#13 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#14 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#16 {main}
+CRITICAL - 2022-01-25 11:27:21 --> Argument 1 passed to _get_uri() must be of the type string, null given, called in D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Helpers\url_helper.php on line 87
+#0 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Helpers\url_helper.php(87): _get_uri(NULL, NULL)
+#1 D:\php7.4\htdocs\endque_lion\app\Views\template\sidebar.php(42): site_url(NULL)
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\php7.4\\htdoc...')
+#3 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(424): CodeIgniter\View\View->render('template/sideba...', NULL, true)
+#5 D:\php7.4\htdocs\endque_lion\app\Views\template\template.php(86): CodeIgniter\View\View->include('template/sideba...')
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\php7.4\\htdoc...')
+#7 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('template/templa...', Array, true)
+#9 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\dashboa...', Array, true)
+#10 D:\php7.4\htdocs\endque_lion\app\Libraries\Templates.php(26): view('Modules\\dashboa...', Array)
+#11 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(30): App\Libraries\Templates->display('dashboard', 'index')
+#12 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->index()
+#13 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#14 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#16 {main}
+CRITICAL - 2022-01-25 11:47:53 --> Undefined variable: title
+#0 D:\php7.4\htdocs\endque_lion\app\Views\template\template.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\php7.4\\htdoc...', 6, Array)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\php7.4\\htdoc...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('template/templa...', Array, true)
+#4 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\dashboa...', Array, true)
+#5 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(30): view('Modules\\dashboa...')
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->index()
+#7 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#8 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-25 11:48:33 --> Undefined variable: menu
+#0 D:\php7.4\htdocs\endque_lion\app\Views\template\sidebar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\php7.4\\htdoc...', 14, Array)
+#1 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\php7.4\\htdoc...')
+#2 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(424): CodeIgniter\View\View->render('template/sideba...', NULL, true)
+#4 D:\php7.4\htdocs\endque_lion\app\Views\template\template.php(86): CodeIgniter\View\View->include('template/sideba...')
+#5 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('D:\\php7.4\\htdoc...')
+#6 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('template/templa...', Array, true)
+#8 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\dashboa...', Array, true)
+#9 D:\php7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(30): view('Modules\\dashboa...')
+#10 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->index()
+#11 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#12 D:\php7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\php7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-01-25 16:33:28 --> Undefined variable: menu
+#0 C:\xamphp7.4\htdocs\endque_lion\app\Views\template\sidebar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamphp7.4\\ht...', 14, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xamphp7.4\\ht...')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(424): CodeIgniter\View\View->render('template/sideba...', NULL, true)
+#4 C:\xamphp7.4\htdocs\endque_lion\app\Views\template\template.php(86): CodeIgniter\View\View->include('template/sideba...')
+#5 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xamphp7.4\\ht...')
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('template/templa...', Array, true)
+#8 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\dashboa...', Array, true)
+#9 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(30): view('Modules\\dashboa...')
+#10 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->index()
+#11 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#12 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-01-25 16:53:08 --> Undefined variable: menu
+#0 C:\xamphp7.4\htdocs\endque_lion\app\Views\template\sidebar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamphp7.4\\ht...', 14, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xamphp7.4\\ht...')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(424): CodeIgniter\View\View->render('template/sideba...', NULL, true)
+#4 C:\xamphp7.4\htdocs\endque_lion\app\Views\template\template.php(86): CodeIgniter\View\View->include('template/sideba...')
+#5 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xamphp7.4\\ht...')
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('template/templa...', Array, true)
+#8 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\dashboa...', Array, true)
+#9 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(30): view('Modules\\dashboa...')
+#10 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->index()
+#11 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#12 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-01-25 22:25:49 --> syntax error, unexpected '$lisen' (T_VARIABLE)
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xamphp7.4\\ht...')
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\T...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\T...')
+#3 C:\xamphp7.4\htdocs\endque_lion\app\Controllers\MikaController.php(47): spl_autoload_call('App\\Libraries\\T...')
+#4 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(13): App\Controllers\MikaController->__construct()
+#5 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(802): Modules\Dashboard\Controllers\Dashboard->__construct()
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-25 22:25:51 --> syntax error, unexpected '$lisen' (T_VARIABLE)
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xamphp7.4\\ht...')
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\T...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\T...')
+#3 C:\xamphp7.4\htdocs\endque_lion\app\Controllers\MikaController.php(47): spl_autoload_call('App\\Libraries\\T...')
+#4 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(13): App\Controllers\MikaController->__construct()
+#5 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(802): Modules\Dashboard\Controllers\Dashboard->__construct()
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-25 23:20:38 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$uri
+#0 C:\xamphp7.4\htdocs\endque_lion\app\Controllers\MikaController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 36, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(13): App\Controllers\MikaController->__construct()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(802): Modules\Dashboard\Controllers\Dashboard->__construct()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-25 23:30:05 --> Too few arguments to function App\Controllers\MikaController::__construct(), 0 passed in C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php on line 13 and exactly 1 expected
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(13): App\Controllers\MikaController->__construct()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(802): Modules\Dashboard\Controllers\Dashboard->__construct()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-25 23:31:19 --> Too few arguments to function App\Controllers\MikaController::__construct(), 0 passed in C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php on line 13 and exactly 1 expected
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(13): App\Controllers\MikaController->__construct()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(802): Modules\Dashboard\Controllers\Dashboard->__construct()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-25 23:37:05 --> Too few arguments to function App\Controllers\MikaController::__construct(), 0 passed in C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php on line 13 and exactly 1 expected
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(13): App\Controllers\MikaController->__construct()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(802): Modules\Dashboard\Controllers\Dashboard->__construct()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-25 23:37:05 --> Too few arguments to function App\Controllers\MikaController::__construct(), 0 passed in C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php on line 13 and exactly 1 expected
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(13): App\Controllers\MikaController->__construct()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(802): Modules\Dashboard\Controllers\Dashboard->__construct()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-25 23:37:43 --> Too few arguments to function App\Controllers\MikaController::__construct(), 0 passed in C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php on line 13 and exactly 1 expected
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(13): App\Controllers\MikaController->__construct()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(802): Modules\Dashboard\Controllers\Dashboard->__construct()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-25 23:39:35 --> syntax error, unexpected '$request' (T_VARIABLE), expecting ')'
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xamphp7.4\\ht...')
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Modules\\Dashboa...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Modules\\Dashboa...')
+#3 [internal function]: spl_autoload_call('Modules\\Dashboa...')
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(790): class_exists('\\Modules\\Dashbo...', true)
+#5 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-25 23:39:36 --> syntax error, unexpected '$request' (T_VARIABLE), expecting ')'
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xamphp7.4\\ht...')
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Modules\\Dashboa...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Modules\\Dashboa...')
+#3 [internal function]: spl_autoload_call('Modules\\Dashboa...')
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(790): class_exists('\\Modules\\Dashbo...', true)
+#5 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-25 23:40:00 --> Undefined variable: request
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamphp7.4\\ht...', 14, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(802): Modules\Dashboard\Controllers\Dashboard->__construct()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-25 23:40:01 --> Undefined variable: request
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamphp7.4\\ht...', 14, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(802): Modules\Dashboard\Controllers\Dashboard->__construct()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-25 23:46:05 --> Cannot call constructor
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(802): Modules\Dashboard\Controllers\Dashboard->__construct()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-25 23:46:06 --> Cannot call constructor
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(802): Modules\Dashboard\Controllers\Dashboard->__construct()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-25 23:47:04 --> syntax error, unexpected '@', expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xamphp7.4\\ht...')
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(7): spl_autoload_call('App\\Controllers...')
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(264): include_once('C:\\xamphp7.4\\ht...')
+#5 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xamphp7.4\\ht...')
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Modules\\Dashboa...')
+#7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Modules\\Dashboa...')
+#8 [internal function]: spl_autoload_call('Modules\\Dashboa...')
+#9 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(790): class_exists('\\Modules\\Dashbo...', true)
+#10 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#11 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-01-25 23:47:15 --> syntax error, unexpected '|', expecting variable (T_VARIABLE)
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xamphp7.4\\ht...')
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(7): spl_autoload_call('App\\Controllers...')
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(264): include_once('C:\\xamphp7.4\\ht...')
+#5 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xamphp7.4\\ht...')
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Modules\\Dashboa...')
+#7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Modules\\Dashboa...')
+#8 [internal function]: spl_autoload_call('Modules\\Dashboa...')
+#9 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(790): class_exists('\\Modules\\Dashbo...', true)
+#10 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#11 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-01-25 23:47:33 --> syntax error, unexpected '|', expecting variable (T_VARIABLE)
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xamphp7.4\\ht...')
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(7): spl_autoload_call('App\\Controllers...')
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(264): include_once('C:\\xamphp7.4\\ht...')
+#5 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xamphp7.4\\ht...')
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Modules\\Dashboa...')
+#7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Modules\\Dashboa...')
+#8 [internal function]: spl_autoload_call('Modules\\Dashboa...')
+#9 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(790): class_exists('\\Modules\\Dashbo...', true)
+#10 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#11 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-01-25 23:47:53 --> Cannot call constructor
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(802): Modules\Dashboard\Controllers\Dashboard->__construct()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-25 23:48:09 --> Class 'App\Controllers\Templates' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(803): App\Controllers\MikaController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-25 23:48:30 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$uri
+#0 C:\xamphp7.4\htdocs\endque_lion\app\Controllers\MikaController.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 42, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(803): App\Controllers\MikaController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-25 23:49:02 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::getSegment()
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(803): App\Controllers\MikaController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-25 23:49:05 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::getSegment()
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(803): App\Controllers\MikaController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-25 23:49:21 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::getSegment()
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(803): App\Controllers\MikaController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-25 23:49:22 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::getSegment()
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(803): App\Controllers\MikaController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-25 23:58:51 --> Declaration of App\Controllers\MikaController::initController(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, Psr\Log\LoggerInterface $logger, CodeIgniter\HTTP\URI $uri) should be compatible with CodeIgniter\Controller::initController(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, Psr\Log\LoggerInterface $logger)
+#0 C:\xamphp7.4\htdocs\endque_lion\app\Controllers\MikaController.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Declaration of ...', 'C:\\xamphp7.4\\ht...', 32, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(264): include_once('C:\\xamphp7.4\\ht...')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xamphp7.4\\ht...')
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#5 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(7): spl_autoload_call('App\\Controllers...')
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(264): include_once('C:\\xamphp7.4\\ht...')
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xamphp7.4\\ht...')
+#8 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Modules\\Dashboa...')
+#9 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Modules\\Dashboa...')
+#10 [internal function]: spl_autoload_call('Modules\\Dashboa...')
+#11 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(790): class_exists('\\Modules\\Dashbo...', true)
+#12 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#13 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#15 {main}

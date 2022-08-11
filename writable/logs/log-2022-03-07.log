@@ -1,0 +1,95 @@
+CRITICAL - 2022-03-07 10:57:29 --> Undefined property: CodeIgniter\Database\MySQLi\Builder::$id_user
+#0 C:\xamphp7.4\htdocs\sms\modules\Send_sms\Controllers\Send_sms.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 29, Array)
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Send_sms\Controllers\Send_sms->send()
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Send_sms\Controllers\Send_sms))
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 11:00:49 --> Undefined property: CodeIgniter\Database\MySQLi\Builder::$id_user
+#0 C:\xamphp7.4\htdocs\sms\modules\Broadcast_pesan\Controllers\Broadcast_pesan.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 32, Array)
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Broadcast_pesan\Controllers\Broadcast_pesan->send()
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Broadcast_pesan\Controllers\Broadcast_pesan))
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 11:17:23 --> Undefined offset: 0
+#0 C:\xamphp7.4\htdocs\sms\modules\Dashboard\Controllers\Dashboard.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xamphp7.4\\ht...', 75, Array)
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->cek_pulsa()
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 11:17:34 --> Undefined offset: 0
+#0 C:\xamphp7.4\htdocs\sms\modules\Dashboard\Controllers\Dashboard.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xamphp7.4\\ht...', 75, Array)
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->cek_pulsa()
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 11:18:50 --> Undefined offset: 0
+#0 C:\xamphp7.4\htdocs\sms\modules\Dashboard\Controllers\Dashboard.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xamphp7.4\\ht...', 76, Array)
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->cek_pulsa()
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 11:19:03 --> Undefined offset: 0
+#0 C:\xamphp7.4\htdocs\sms\modules\Dashboard\Controllers\Dashboard.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xamphp7.4\\ht...', 76, Array)
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->cek_pulsa()
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 11:19:16 --> Undefined offset: 0
+#0 C:\xamphp7.4\htdocs\sms\modules\Dashboard\Controllers\Dashboard.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xamphp7.4\\ht...', 76, Array)
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->cek_pulsa()
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 12:03:22 --> Undefined property: App\Libraries\Templates::$inbox
+#0 C:\xamphp7.4\htdocs\sms\app\Libraries\Templates.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 37, Array)
+#1 C:\xamphp7.4\htdocs\sms\modules\Pesan_masuk\Controllers\Pesan_masuk.php(17): App\Libraries\Templates->display('pesan_masuk', '/index')
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Pesan_masuk\Controllers\Pesan_masuk->index()
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Pesan_masuk\Controllers\Pesan_masuk))
+#4 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-07 12:25:50 --> Undefined variable: sms_belum_baca
+#0 C:\xamphp7.4\htdocs\sms\app\Views\template\sidebar.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamphp7.4\\ht...', 48, Array)
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xamphp7.4\\ht...')
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\View\View.php(424): CodeIgniter\View\View->render('template/sideba...', NULL, true)
+#4 C:\xamphp7.4\htdocs\sms\app\Views\template\template.php(83): CodeIgniter\View\View->include('template/sideba...')
+#5 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xamphp7.4\\ht...')
+#6 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('template/templa...', Array, true)
+#8 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\dashboa...', Array, true)
+#9 C:\xamphp7.4\htdocs\sms\app\Libraries\Templates.php(37): view('Modules\\dashboa...', Array)
+#10 C:\xamphp7.4\htdocs\sms\modules\Dashboard\Controllers\Dashboard.php(50): App\Libraries\Templates->display('dashboard', 'index', Array)
+#11 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->index()
+#12 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#13 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#15 {main}
+CRITICAL - 2022-03-07 12:31:40 --> Undefined property: stdClass::$is_baca
+#0 C:\xamphp7.4\htdocs\sms\modules\Pesan_masuk\Controllers\Pesan_masuk.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 28, Array)
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Pesan_masuk\Controllers\Pesan_masuk->get_data()
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Pesan_masuk\Controllers\Pesan_masuk))
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 12:31:43 --> Undefined property: stdClass::$is_baca
+#0 C:\xamphp7.4\htdocs\sms\modules\Pesan_masuk\Controllers\Pesan_masuk.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 28, Array)
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Pesan_masuk\Controllers\Pesan_masuk->get_data()
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Pesan_masuk\Controllers\Pesan_masuk))
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-07 12:31:52 --> Undefined property: stdClass::$is_baca
+#0 C:\xamphp7.4\htdocs\sms\modules\Pesan_masuk\Controllers\Pesan_masuk.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 28, Array)
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Pesan_masuk\Controllers\Pesan_masuk->get_data()
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Pesan_masuk\Controllers\Pesan_masuk))
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

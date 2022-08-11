@@ -1,0 +1,10 @@
+CRITICAL - 2022-03-06 22:59:06 --> file_get_contents(): read of 8192 bytes failed with errno=13 Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'file_get_conten...', 'C:\\xamphp7.4\\ht...', 80, Array)
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Debug\Toolbar\Collectors\History.php(80): file_get_contents('C:\\xamphp7.4\\ht...')
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Debug\Toolbar.php(487): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1646629146, 20)
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Debug\Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 C:\xamphp7.4\htdocs\sms\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#5 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(302): CodeIgniter\Events\Events::trigger('pre_system')
+#7 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

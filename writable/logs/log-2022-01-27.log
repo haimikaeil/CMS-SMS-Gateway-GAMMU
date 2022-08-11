@@ -1,0 +1,1535 @@
+CRITICAL - 2022-01-27 09:53:06 --> Trying to get property 'nama' of non-object
+#0 C:\xamphp7.4\htdocs\endque_lion\app\Views\template\header.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xamphp7.4\\ht...', 27, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xamphp7.4\\ht...')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(424): CodeIgniter\View\View->render('template/header', NULL, true)
+#4 C:\xamphp7.4\htdocs\endque_lion\app\Views\template\template.php(78): CodeIgniter\View\View->include('template/header')
+#5 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xamphp7.4\\ht...')
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('template/templa...', Array, true)
+#8 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\dashboa...', Array, true)
+#9 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(54): view('Modules\\dashboa...', Array)
+#10 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(29): App\Libraries\Templates->display('dashboard', 'index', Array)
+#11 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->index()
+#12 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#13 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#15 {main}
+CRITICAL - 2022-01-27 12:14:54 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:14:56 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:15:01 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:15:06 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:15:11 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:15:16 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:15:21 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:15:26 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:15:31 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:15:36 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:15:41 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:15:46 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:15:51 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:15:56 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:16:01 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:16:06 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:16:11 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:16:16 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:16:21 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:16:26 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:16:31 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:16:36 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:16:41 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:16:46 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:16:51 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:16:56 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:17:01 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:17:06 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:17:11 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:17:16 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:17:21 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:17:26 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:17:31 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:17:36 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:17:41 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:17:46 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:17:51 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:17:56 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:18:01 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:18:06 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:18:11 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:18:14 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:18:19 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:18:24 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:18:29 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:18:34 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:18:39 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:18:44 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:18:49 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:18:54 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:18:59 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:19:04 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:19:09 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:19:14 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:19:19 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:19:24 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:19:29 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:19:34 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:19:39 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:19:44 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:19:49 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:19:54 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:19:59 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:20:04 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:20:09 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:20:14 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:20:19 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:20:24 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:20:29 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:20:34 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:20:39 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:20:44 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:20:49 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:20:54 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:20:59 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:21:04 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:21:09 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:21:14 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:21:19 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:21:24 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:21:29 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:21:34 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:21:39 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:21:44 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:21:49 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:21:54 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:21:59 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:22:04 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:25:34 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:25:39 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:25:44 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:25:49 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:25:54 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:25:59 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:26:04 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:26:09 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:26:14 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:26:19 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:26:24 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:26:29 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:26:34 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:26:39 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:26:44 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:26:49 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:26:54 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:26:59 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:27:04 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:27:09 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:27:14 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:27:19 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:27:24 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:27:29 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:27:34 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:27:39 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:27:44 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:27:49 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:29:08 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:29:13 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:29:18 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:29:23 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:29:28 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:29:33 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:29:38 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:29:43 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:29:48 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:29:53 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:29:58 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:30:03 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:30:08 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:30:13 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:30:18 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:30:23 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:30:28 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:30:33 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:30:38 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:30:43 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:30:48 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:30:53 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:30:58 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:31:03 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:31:08 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:31:13 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:31:18 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:31:23 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:31:28 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:31:33 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:31:38 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:31:43 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:31:48 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:31:53 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:31:58 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:32:03 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:32:09 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:32:13 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:32:18 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:32:23 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:32:29 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:32:34 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:32:38 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:32:44 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:32:48 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:32:53 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:32:58 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:33:03 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:33:08 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:33:13 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:33:18 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:33:23 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:33:28 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:33:33 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:33:38 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:33:43 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:33:48 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:33:53 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:33:58 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:34:03 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:34:08 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:34:16 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:34:18 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:34:23 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:34:28 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:34:33 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:34:39 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:34:44 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:34:49 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:34:54 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:34:59 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:35:04 --> Undefined property: Modules\Dashboard\Controllers\Dashboard::$input
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 33, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_informasi()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 12:56:30 --> Call to undefined method CodeIgniter\HTTP\URI::segment()
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('template/templa...', Array, true)
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\dashboa...', Array, true)
+#4 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(54): view('Modules\\dashboa...', Array)
+#5 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(29): App\Libraries\Templates->display('dashboard', 'index', Array)
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->index()
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#8 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-27 12:56:43 --> Undefined property: CodeIgniter\View\View::$title
+#0 C:\xamphp7.4\htdocs\endque_lion\app\Views\template\template.php(108): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 108, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xamphp7.4\\ht...')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('template/templa...', Array, true)
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\dashboa...', Array, true)
+#5 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(54): view('Modules\\dashboa...', Array)
+#6 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(29): App\Libraries\Templates->display('dashboard', 'index', Array)
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->index()
+#8 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#9 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-01-27 13:07:07 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::group_by()
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_bantuan_per_operator()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-27 13:07:17 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::group_by()
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_bantuan_per_operator()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-27 13:07:27 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::group_by()
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_bantuan_per_operator()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-27 13:07:37 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::group_by()
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_bantuan_per_operator()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-27 13:07:47 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::group_by()
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_bantuan_per_operator()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-27 13:07:57 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::group_by()
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_bantuan_per_operator()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-27 13:08:05 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::group_by()
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_bantuan_per_operator()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-27 13:08:13 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::group_by()
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_bantuan_per_operator()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-27 13:08:18 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::group_by()
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_bantuan_per_operator()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-27 13:08:26 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::group_by()
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_bantuan_per_operator()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-27 13:12:40 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_table_waktu_loket()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-27 13:12:44 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_table_waktu_loket()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-27 13:12:47 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_table_waktu_loket()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-27 16:26:16 --> Undefined variable: icon
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Views\index.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamphp7.4\\ht...', 10, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xamphp7.4\\ht...')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\Gudang\\...', Array, true)
+#4 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(54): view('Modules\\Gudang\\...', Array)
+#5 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(21): App\Libraries\Templates->display('Gudang', 'index', Array)
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->index()
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#8 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-27 16:28:56 --> Undefined property: CodeIgniter\View\View::$icon
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Views\index.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 10, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xamphp7.4\\ht...')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\Gudang\\...', Array, true)
+#4 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(54): view('Modules\\Gudang\\...', Array)
+#5 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(21): App\Libraries\Templates->display('Gudang', 'index', Array)
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->index()
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#8 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-27 16:28:59 --> Undefined variable: icon
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Views\index.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamphp7.4\\ht...', 10, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xamphp7.4\\ht...')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\Gudang\\...', Array, true)
+#4 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(54): view('Modules\\Gudang\\...', Array)
+#5 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(21): App\Libraries\Templates->display('Gudang', 'index', Array)
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->index()
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#8 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-01-27 16:31:38 --> Cannot use object of type stdClass as array
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(21): App\Libraries\Templates->display('Gudang', 'index', Object(stdClass))
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->index()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-27 20:49:03 --> Trying to get property 'nama' of non-object
+#0 C:\xamphp7.4\htdocs\endque_lion\app\Views\template\header.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xamphp7.4\\ht...', 27, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xamphp7.4\\ht...')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(424): CodeIgniter\View\View->render('template/header', NULL, true)
+#4 C:\xamphp7.4\htdocs\endque_lion\app\Views\template\template.php(78): CodeIgniter\View\View->include('template/header')
+#5 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xamphp7.4\\ht...')
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('template/templa...', Array, true)
+#8 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\dashboa...', Array, true)
+#9 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(64): view('Modules\\dashboa...', Array)
+#10 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(29): App\Libraries\Templates->display('dashboard', 'index', Array)
+#11 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->index()
+#12 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#13 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#15 {main}
+CRITICAL - 2022-01-27 20:52:43 --> Trying to get property 'nama' of non-object
+#0 C:\xamphp7.4\htdocs\endque_lion\app\Views\template\header.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xamphp7.4\\ht...', 27, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xamphp7.4\\ht...')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(424): CodeIgniter\View\View->render('template/header', NULL, true)
+#4 C:\xamphp7.4\htdocs\endque_lion\app\Views\template\template.php(78): CodeIgniter\View\View->include('template/header')
+#5 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xamphp7.4\\ht...')
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('template/templa...', Array, true)
+#8 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\dashboa...', Array, true)
+#9 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(64): view('Modules\\dashboa...', Array)
+#10 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(29): App\Libraries\Templates->display('dashboard', 'index', Array)
+#11 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->index()
+#12 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#13 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#15 {main}
+CRITICAL - 2022-01-27 21:58:09 --> syntax error, unexpected '-', expecting ';' or ','
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xamphp7.4\\ht...')
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Modules\\Gudang\\...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Modules\\Gudang\\...')
+#3 [internal function]: spl_autoload_call('Modules\\Gudang\\...')
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(790): class_exists('\\Modules\\Gudang...', true)
+#5 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-27 22:40:37 --> Cannot call constructor
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(802): Modules\Gudang\Controllers\Gudang->__construct()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-27 22:40:41 --> Class 'Irsyadulibad\DataTables\DataTables' not found
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->get_data()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

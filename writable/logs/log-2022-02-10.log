@@ -1,0 +1,527 @@
+CRITICAL - 2022-02-10 10:06:14 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_chart()
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-10 10:07:15 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_chart()
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-10 10:08:15 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_chart()
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-10 10:09:02 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_chart()
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-10 10:09:35 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_chart()
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-10 10:09:58 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_chart()
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-10 10:10:08 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_chart()
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-10 10:10:33 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_chart()
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-10 10:11:02 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_chart()
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-10 10:11:31 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_chart()
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-10 10:12:05 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_chart()
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-02-10 10:12:44 --> Table 'endqueue_lion.inbox' doesn't exist
+CRITICAL - 2022-02-10 10:12:44 --> Table 'endqueue_lion.inbox' doesn't exist
+#0 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT count(*)...', 0)
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT count(*)...')
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(*)...')
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT count(*)...', Array, false)
+#4 C:\xamphp7.4\htdocs\sms\modules\Dashboard\Controllers\Dashboard.php(197): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_chart()
+#6 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#7 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-02-10 10:13:16 --> Table 'endqueue_lion.inbox' doesn't exist
+CRITICAL - 2022-02-10 10:13:16 --> Table 'endqueue_lion.inbox' doesn't exist
+#0 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT count(*)...', 0)
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT count(*)...')
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(*)...')
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT count(*)...', Array, false)
+#4 C:\xamphp7.4\htdocs\sms\modules\Dashboard\Controllers\Dashboard.php(197): CodeIgniter\Database\BaseBuilder->get(1)
+#5 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_chart()
+#6 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#7 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-02-10 10:14:03 --> Table 'endqueue_lion.inbox' doesn't exist
+CRITICAL - 2022-02-10 10:14:03 --> Table 'endqueue_lion.inbox' doesn't exist
+#0 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT count(*)...', 0)
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT count(*)...')
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(*)...')
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT count(*)...', Array, false)
+#4 C:\xamphp7.4\htdocs\sms\modules\Dashboard\Controllers\Dashboard.php(197): CodeIgniter\Database\BaseBuilder->get(1)
+#5 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_chart()
+#6 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#7 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-02-10 10:15:59 --> Table 'endqueue_lion.inbox' doesn't exist
+CRITICAL - 2022-02-10 10:15:59 --> Table 'endqueue_lion.inbox' doesn't exist
+#0 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT count(*)...', 0)
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT count(*)...')
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(*)...')
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT count(*)...', Array, false)
+#4 C:\xamphp7.4\htdocs\sms\modules\Dashboard\Controllers\Dashboard.php(200): CodeIgniter\Database\BaseBuilder->get(1)
+#5 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_chart()
+#6 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#7 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-02-10 10:16:01 --> Table 'endqueue_lion.inbox' doesn't exist
+CRITICAL - 2022-02-10 10:16:01 --> Table 'endqueue_lion.inbox' doesn't exist
+#0 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT count(*)...', 0)
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT count(*)...')
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT count(*)...')
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT count(*)...', Array, false)
+#4 C:\xamphp7.4\htdocs\sms\modules\Dashboard\Controllers\Dashboard.php(200): CodeIgniter\Database\BaseBuilder->get(1)
+#5 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->get_chart()
+#6 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#7 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-02-10 10:16:01 --> Table 'endqueue_lion.sisa_pulsa' doesn't exist
+CRITICAL - 2022-02-10 10:16:01 --> Table 'endqueue_lion.sisa_pulsa' doesn't exist
+#0 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xamphp7.4\htdocs\sms\modules\Dashboard\Controllers\Dashboard.php(25): CodeIgniter\Database\BaseBuilder->get(1)
+#5 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->index()
+#6 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#7 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-10 10:25:17 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->index()
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-10 10:26:20 --> Undefined variable: setting
+#0 C:\xamphp7.4\htdocs\sms\app\Libraries\Templates.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamphp7.4\\ht...', 37, Array)
+#1 C:\xamphp7.4\htdocs\sms\modules\Dashboard\Controllers\Dashboard.php(50): App\Libraries\Templates->display('dashboard', 'index', Array)
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->index()
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#4 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-10 10:37:43 --> Undefined variable: button_tambah
+#0 C:\xamphp7.4\htdocs\sms\modules\User\Views\index.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamphp7.4\\ht...', 14, Array)
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xamphp7.4\\ht...')
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\user\\Vi...', Array, true)
+#4 C:\xamphp7.4\htdocs\sms\app\Libraries\Templates.php(37): view('Modules\\user\\Vi...', Array)
+#5 C:\xamphp7.4\htdocs\sms\modules\User\Controllers\User.php(18): App\Libraries\Templates->display('user', 'index')
+#6 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\User\Controllers\User->index()
+#7 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\User\Controllers\User))
+#8 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-10 10:38:16 --> Undefined property: Modules\User\Controllers\User::$m_user
+#0 C:\xamphp7.4\htdocs\sms\modules\User\Controllers\User.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 32, Array)
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\User\Controllers\User->get_data()
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\User\Controllers\User))
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-10 10:39:32 --> Undefined property: Modules\User\Controllers\User::$m_user
+#0 C:\xamphp7.4\htdocs\sms\modules\User\Controllers\User.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 32, Array)
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\User\Controllers\User->get_data()
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\User\Controllers\User))
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-10 10:40:11 --> Table 'gammu.user_role' doesn't exist
+CRITICAL - 2022-02-10 10:40:11 --> Table 'gammu.user_role' doesn't exist
+#0 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_user...', 0)
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_user...')
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_user...')
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id_user...', Array, false)
+#4 C:\xamphp7.4\htdocs\sms\modules\User\Models\M_user.php(63): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamphp7.4\htdocs\sms\modules\User\Controllers\User.php(32): Modules\User\Models\M_user->getDatatables()
+#6 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\User\Controllers\User->get_data()
+#7 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\User\Controllers\User))
+#8 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-02-10 10:40:21 --> Table 'gammu.user_role' doesn't exist
+CRITICAL - 2022-02-10 10:40:21 --> Table 'gammu.user_role' doesn't exist
+#0 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_user...', 0)
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_user...')
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_user...')
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id_user...', Array, false)
+#4 C:\xamphp7.4\htdocs\sms\modules\User\Models\M_user.php(63): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamphp7.4\htdocs\sms\modules\User\Controllers\User.php(32): Modules\User\Models\M_user->getDatatables()
+#6 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\User\Controllers\User->get_data()
+#7 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\User\Controllers\User))
+#8 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-02-10 10:41:46 --> Unknown column 'id_user, username, nama,' in 'field list'
+CRITICAL - 2022-02-10 10:41:46 --> Unknown column 'id_user, username, nama,' in 'field list'
+#0 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_user...', 0)
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_user...')
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_user...')
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id_user...', Array, false)
+#4 C:\xamphp7.4\htdocs\sms\modules\User\Models\M_user.php(57): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamphp7.4\htdocs\sms\modules\User\Controllers\User.php(32): Modules\User\Models\M_user->getDatatables()
+#6 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\User\Controllers\User->get_data()
+#7 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\User\Controllers\User))
+#8 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-10 10:42:09 --> Undefined variable: loket
+#0 C:\xamphp7.4\htdocs\sms\modules\User\Views\add.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamphp7.4\\ht...', 34, Array)
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xamphp7.4\\ht...')
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\user\\Vi...', Array, true)
+#4 C:\xamphp7.4\htdocs\sms\app\Libraries\Templates.php(37): view('Modules\\user\\Vi...', Array)
+#5 C:\xamphp7.4\htdocs\sms\modules\User\Controllers\User.php(59): App\Libraries\Templates->display('user', 'add')
+#6 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\User\Controllers\User->tambah()
+#7 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\User\Controllers\User))
+#8 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-10 10:46:12 --> Undefined property: stdClass::$menu
+#0 C:\xamphp7.4\htdocs\sms\app\Libraries\Templates.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 32, Array)
+#1 C:\xamphp7.4\htdocs\sms\modules\Dashboard\Controllers\Dashboard.php(50): App\Libraries\Templates->display('dashboard', 'index', Array)
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->index()
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#4 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-10 10:49:07 --> Call to a member function where() on null
+#0 C:\xamphp7.4\htdocs\sms\app\Libraries\Templates.php(32): App\Libraries\Templates->generate_menu()
+#1 C:\xamphp7.4\htdocs\sms\modules\Dashboard\Controllers\Dashboard.php(50): App\Libraries\Templates->display('dashboard', 'index', Array)
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->index()
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#4 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-10 10:53:47 --> Call to undefined method CodeIgniter\HTTP\URI::segment()
+#0 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\View\View.php(424): CodeIgniter\View\View->render('template/sideba...', NULL, true)
+#3 C:\xamphp7.4\htdocs\sms\app\Views\template\template.php(83): CodeIgniter\View\View->include('template/sideba...')
+#4 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xamphp7.4\\ht...')
+#5 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('template/templa...', Array, true)
+#7 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\log\\Vie...', Array, true)
+#8 C:\xamphp7.4\htdocs\sms\app\Libraries\Templates.php(37): view('Modules\\log\\Vie...', Array)
+#9 C:\xamphp7.4\htdocs\sms\modules\Log\Controllers\Log.php(17): App\Libraries\Templates->display('log', 'index')
+#10 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Log\Controllers\Log->index()
+#11 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Log\Controllers\Log))
+#12 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-02-10 10:53:50 --> Call to undefined method CodeIgniter\HTTP\URI::segment()
+#0 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\View\View.php(424): CodeIgniter\View\View->render('template/sideba...', NULL, true)
+#3 C:\xamphp7.4\htdocs\sms\app\Views\template\template.php(83): CodeIgniter\View\View->include('template/sideba...')
+#4 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xamphp7.4\\ht...')
+#5 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('template/templa...', Array, true)
+#7 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\dashboa...', Array, true)
+#8 C:\xamphp7.4\htdocs\sms\app\Libraries\Templates.php(37): view('Modules\\dashboa...', Array)
+#9 C:\xamphp7.4\htdocs\sms\modules\Dashboard\Controllers\Dashboard.php(50): App\Libraries\Templates->display('dashboard', 'index', Array)
+#10 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->index()
+#11 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#12 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-02-10 10:53:53 --> Call to undefined method CodeIgniter\HTTP\URI::segment()
+#0 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\View\View.php(424): CodeIgniter\View\View->render('template/sideba...', NULL, true)
+#3 C:\xamphp7.4\htdocs\sms\app\Views\template\template.php(83): CodeIgniter\View\View->include('template/sideba...')
+#4 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xamphp7.4\\ht...')
+#5 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('template/templa...', Array, true)
+#7 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\dashboa...', Array, true)
+#8 C:\xamphp7.4\htdocs\sms\app\Libraries\Templates.php(37): view('Modules\\dashboa...', Array)
+#9 C:\xamphp7.4\htdocs\sms\modules\Dashboard\Controllers\Dashboard.php(50): App\Libraries\Templates->display('dashboard', 'index', Array)
+#10 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->index()
+#11 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#12 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-02-10 10:53:56 --> Call to undefined method CodeIgniter\HTTP\URI::segment()
+#0 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\View\View.php(424): CodeIgniter\View\View->render('template/sideba...', NULL, true)
+#3 C:\xamphp7.4\htdocs\sms\app\Views\template\template.php(83): CodeIgniter\View\View->include('template/sideba...')
+#4 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xamphp7.4\\ht...')
+#5 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('template/templa...', Array, true)
+#7 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\dashboa...', Array, true)
+#8 C:\xamphp7.4\htdocs\sms\app\Libraries\Templates.php(37): view('Modules\\dashboa...', Array)
+#9 C:\xamphp7.4\htdocs\sms\modules\Dashboard\Controllers\Dashboard.php(50): App\Libraries\Templates->display('dashboard', 'index', Array)
+#10 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->index()
+#11 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#12 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-02-10 10:54:37 --> Undefined property: Modules\Log\Controllers\Log::$m_log
+#0 C:\xamphp7.4\htdocs\sms\modules\Log\Controllers\Log.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 23, Array)
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Log\Controllers\Log->get_data()
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Log\Controllers\Log))
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-10 10:55:31 --> Table 'gammu.cs' doesn't exist
+CRITICAL - 2022-02-10 10:55:31 --> Table 'gammu.cs' doesn't exist
+#0 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_log`...', 0)
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_log`...')
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_log`...')
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id_log`...', Array, false)
+#4 C:\xamphp7.4\htdocs\sms\modules\Log\Models\M_log.php(61): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamphp7.4\htdocs\sms\modules\Log\Controllers\Log.php(23): Modules\Log\Models\M_log->getDatatables()
+#6 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Log\Controllers\Log->get_data()
+#7 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Log\Controllers\Log))
+#8 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-02-10 10:56:29 --> Unknown column 'nama_cs' in 'field list'
+CRITICAL - 2022-02-10 10:56:29 --> Unknown column 'nama_cs' in 'field list'
+#0 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id_log`...', 0)
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id_log`...')
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id_log`...')
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id_log`...', Array, false)
+#4 C:\xamphp7.4\htdocs\sms\modules\Log\Models\M_log.php(60): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xamphp7.4\htdocs\sms\modules\Log\Controllers\Log.php(23): Modules\Log\Models\M_log->getDatatables()
+#6 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Log\Controllers\Log->get_data()
+#7 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Log\Controllers\Log))
+#8 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-10 21:41:18 --> Trying to get property 'TABLE_NAME' of non-object
+#0 C:\xamphp7.4\htdocs\sms\app\Controllers\MikaController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xamphp7.4\\ht...', 27, Array)
+#1 C:\xamphp7.4\htdocs\sms\modules\Log\Controllers\Log.php(11): App\Controllers\MikaController->__construct()
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): Modules\Log\Controllers\Log->__construct()
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#4 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-10 21:55:25 --> Class 'Modules\Send_sms\Models\M_Send_sms' not found
+#0 C:\xamphp7.4\htdocs\sms\modules\Send_sms\Controllers\Send_sms.php(11): App\Controllers\MikaController->__construct()
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): Modules\Send_sms\Controllers\Send_sms->__construct()
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-10 21:55:30 --> Class 'Modules\Dashboard\Models\M_Dashboard' not found
+#0 C:\xamphp7.4\htdocs\sms\modules\Dashboard\Controllers\Dashboard.php(12): App\Controllers\MikaController->__construct()
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): Modules\Dashboard\Controllers\Dashboard->__construct()
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-10 22:03:22 --> Undefined variable: variable
+#0 C:\xamphp7.4\htdocs\sms\app\Controllers\MikaController.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamphp7.4\\ht...', 32, Array)
+#1 C:\xamphp7.4\htdocs\sms\modules\Dashboard\Controllers\Dashboard.php(12): App\Controllers\MikaController->__construct()
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): Modules\Dashboard\Controllers\Dashboard->__construct()
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#4 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-10 22:04:08 --> Class 'Modules\Dashboard\Models\M_Dashboard' not found
+#0 C:\xamphp7.4\htdocs\sms\modules\Log\Controllers\Log.php(11): App\Controllers\MikaController->__construct()
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): Modules\Log\Controllers\Log->__construct()
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-10 22:05:37 --> Class 'Modules\Dashboard\Models\M_Dashboard' not found
+#0 C:\xamphp7.4\htdocs\sms\modules\Log\Controllers\Log.php(11): App\Controllers\MikaController->__construct()
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): Modules\Log\Controllers\Log->__construct()
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-10 22:05:40 --> Class 'Modules\Dashboard\Models\M_Dashboard' not found
+#0 C:\xamphp7.4\htdocs\sms\modules\Log\Controllers\Log.php(11): App\Controllers\MikaController->__construct()
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): Modules\Log\Controllers\Log->__construct()
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-10 22:05:49 --> Class 'Modules\Dashboard\Models\M_Dashboard' not found
+#0 C:\xamphp7.4\htdocs\sms\modules\Log\Controllers\Log.php(11): App\Controllers\MikaController->__construct()
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): Modules\Log\Controllers\Log->__construct()
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-10 22:05:50 --> Class 'Modules\Dashboard\Models\M_Dashboard' not found
+#0 C:\xamphp7.4\htdocs\sms\modules\Log\Controllers\Log.php(11): App\Controllers\MikaController->__construct()
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): Modules\Log\Controllers\Log->__construct()
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-10 22:05:50 --> Class 'Modules\Dashboard\Models\M_Dashboard' not found
+#0 C:\xamphp7.4\htdocs\sms\modules\Log\Controllers\Log.php(11): App\Controllers\MikaController->__construct()
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): Modules\Log\Controllers\Log->__construct()
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-10 22:05:51 --> Class 'Modules\Dashboard\Models\M_Dashboard' not found
+#0 C:\xamphp7.4\htdocs\sms\modules\Log\Controllers\Log.php(11): App\Controllers\MikaController->__construct()
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): Modules\Log\Controllers\Log->__construct()
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-10 22:05:51 --> Class 'Modules\Dashboard\Models\M_Dashboard' not found
+#0 C:\xamphp7.4\htdocs\sms\modules\Log\Controllers\Log.php(11): App\Controllers\MikaController->__construct()
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): Modules\Log\Controllers\Log->__construct()
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-10 22:05:51 --> Class 'Modules\Dashboard\Models\M_Dashboard' not found
+#0 C:\xamphp7.4\htdocs\sms\modules\Log\Controllers\Log.php(11): App\Controllers\MikaController->__construct()
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): Modules\Log\Controllers\Log->__construct()
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-10 22:05:51 --> Class 'Modules\Dashboard\Models\M_Dashboard' not found
+#0 C:\xamphp7.4\htdocs\sms\modules\Log\Controllers\Log.php(11): App\Controllers\MikaController->__construct()
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): Modules\Log\Controllers\Log->__construct()
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-10 22:05:53 --> Class 'Modules\Dashboard\Models\M_Dashboard' not found
+#0 C:\xamphp7.4\htdocs\sms\modules\Log\Controllers\Log.php(11): App\Controllers\MikaController->__construct()
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): Modules\Log\Controllers\Log->__construct()
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-10 22:05:54 --> Class 'Modules\Dashboard\Models\M_Dashboard' not found
+#0 C:\xamphp7.4\htdocs\sms\modules\Log\Controllers\Log.php(11): App\Controllers\MikaController->__construct()
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): Modules\Log\Controllers\Log->__construct()
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-10 22:05:54 --> Class 'Modules\Dashboard\Models\M_Dashboard' not found
+#0 C:\xamphp7.4\htdocs\sms\modules\Log\Controllers\Log.php(11): App\Controllers\MikaController->__construct()
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): Modules\Log\Controllers\Log->__construct()
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-10 22:33:42 --> Class 'App\Controllers\MikaController' not found
+#0 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xamphp7.4\\ht...')
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 C:\xamphp7.4\htdocs\sms\modules\Send_sms\Controllers\Send_sms.php(7): spl_autoload_call('App\\Controllers...')
+#5 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(264): include_once('C:\\xamphp7.4\\ht...')
+#6 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xamphp7.4\\ht...')
+#7 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Modules\\send_sm...')
+#8 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Modules\\send_sm...')
+#9 [internal function]: spl_autoload_call('Modules\\send_sm...')
+#10 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(790): class_exists('\\Modules\\send_s...', true)
+#11 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#12 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-02-10 22:33:45 --> Class 'App\Controllers\MikaController' not found
+#0 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xamphp7.4\\ht...')
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 C:\xamphp7.4\htdocs\sms\modules\Log\Controllers\Log.php(7): spl_autoload_call('App\\Controllers...')
+#5 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(264): include_once('C:\\xamphp7.4\\ht...')
+#6 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xamphp7.4\\ht...')
+#7 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Modules\\Log\\Con...')
+#8 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Modules\\Log\\Con...')
+#9 [internal function]: spl_autoload_call('Modules\\Log\\Con...')
+#10 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(790): class_exists('\\Modules\\Log\\Co...', true)
+#11 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#12 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-02-10 22:33:49 --> Class 'App\Controllers\MikaController' not found
+#0 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xamphp7.4\\ht...')
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 C:\xamphp7.4\htdocs\sms\app\Controllers\Login.php(5): spl_autoload_call('App\\Controllers...')
+#5 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(264): include_once('C:\\xamphp7.4\\ht...')
+#6 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xamphp7.4\\ht...')
+#7 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#8 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#9 [internal function]: spl_autoload_call('App\\Controllers...')
+#10 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#11 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#12 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-02-10 22:34:20 --> Class 'App\Controllers\MikaController' not found
+#0 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xamphp7.4\\ht...')
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 C:\xamphp7.4\htdocs\sms\modules\Log\Controllers\Log.php(7): spl_autoload_call('App\\Controllers...')
+#5 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(264): include_once('C:\\xamphp7.4\\ht...')
+#6 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xamphp7.4\\ht...')
+#7 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Modules\\Log\\Con...')
+#8 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Modules\\Log\\Con...')
+#9 [internal function]: spl_autoload_call('Modules\\Log\\Con...')
+#10 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(790): class_exists('\\Modules\\Log\\Co...', true)
+#11 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#12 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}

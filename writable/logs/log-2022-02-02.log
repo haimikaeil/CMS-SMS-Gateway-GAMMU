@@ -1,0 +1,558 @@
+CRITICAL - 2022-02-02 12:47:44 --> Undefined property: CodeIgniter\View\View::$cname
+#0 C:\xamphp7.4\htdocs\endque_lion\app\Views\template\template.php(217): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 217, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xamphp7.4\\ht...')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('template/templa...', Array, true)
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\dashboa...', Array, true)
+#5 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(66): view('Modules\\dashboa...', Array)
+#6 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(29): App\Libraries\Templates->display('dashboard', 'index', Array)
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->index()
+#8 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#9 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-02-02 12:55:21 --> Undefined property: CodeIgniter\View\View::$button_tambah
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Views\index.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 14, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xamphp7.4\\ht...')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\gudang\\...', Array, true)
+#4 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(66): view('Modules\\gudang\\...', Array)
+#5 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(22): App\Libraries\Templates->display('gudang', 'index', Array)
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->index()
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#8 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-02 13:06:24 --> Undefined property: App\Libraries\Templates::$uri
+#0 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 73, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(29): App\Libraries\Templates->display('dashboard', 'index', Array)
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->index()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-02 13:06:43 --> Undefined property: App\Libraries\Templates::$cname
+#0 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(151): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 151, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(105): App\Libraries\Templates->button_simpan()
+#2 C:\xamphp7.4\htdocs\endque_lion\modules\Dashboard\Controllers\Dashboard.php(29): App\Libraries\Templates->display('dashboard', 'index', Array)
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->index()
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#5 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-02 13:08:51 --> Undefined variable: button_tambah
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Views\index.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamphp7.4\\ht...', 14, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xamphp7.4\\ht...')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\gudang\\...', Array, true)
+#4 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(67): view('Modules\\gudang\\...', Array)
+#5 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(22): App\Libraries\Templates->display('gudang', 'index', Array)
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->index()
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#8 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-02 13:13:33 --> Undefined variable: button_tambah
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Views\index.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamphp7.4\\ht...', 14, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xamphp7.4\\ht...')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\gudang\\...', Array, true)
+#4 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(67): view('Modules\\gudang\\...', Array)
+#5 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(21): App\Libraries\Templates->display('gudang', 'index', Array)
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->index()
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#8 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-02 13:26:45 --> Invalid file: Modules\gudang/add\Views\.php
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\gudang/...')
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\gudang/...', Array, true)
+#2 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(67): view('Modules\\gudang/...', Array)
+#3 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(64): App\Libraries\Templates->display('gudang/add')
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->tambah()
+#5 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-02 13:27:16 --> Invalid file: Modules\gudang/add\Views\.php
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\gudang/...')
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\gudang/...', Array, true)
+#2 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(67): view('Modules\\gudang/...', Array)
+#3 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(64): App\Libraries\Templates->display('gudang/add', NULL)
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->tambah()
+#5 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-02 13:27:35 --> Undefined variable: cname
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Views\add.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamphp7.4\\ht...', 13, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xamphp7.4\\ht...')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\gudang\\...', Array, true)
+#4 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(67): view('Modules\\gudang\\...', Array)
+#5 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(64): App\Libraries\Templates->display('gudang', '/add')
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->tambah()
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#8 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-02 13:34:51 --> Undefined variable: button_tambah
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Views\index.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamphp7.4\\ht...', 14, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xamphp7.4\\ht...')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\gudang\\...', Array, true)
+#4 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(66): view('Modules\\gudang\\...', Array)
+#5 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(17): App\Libraries\Templates->display('gudang', 'index')
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->index()
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#8 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-02 13:52:15 --> Undefined property: App\Libraries\Templates::$button_export
+#0 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 69, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(17): App\Libraries\Templates->display('gudang', 'index')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->index()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-02 13:52:53 --> Undefined variable: icon
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Views\index.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamphp7.4\\ht...', 10, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xamphp7.4\\ht...')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\gudang\\...', Array, true)
+#4 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(74): view('Modules\\gudang\\...', Array)
+#5 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(17): App\Libraries\Templates->display('gudang', 'index')
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->index()
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#8 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-02 13:53:17 --> Undefined variable: icon
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Views\index.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamphp7.4\\ht...', 10, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xamphp7.4\\ht...')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\gudang\\...', Array, true)
+#4 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(73): view('Modules\\gudang\\...', Array)
+#5 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(17): App\Libraries\Templates->display('gudang', 'index')
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->index()
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#8 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-02 13:54:28 --> Undefined variable: icon
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Views\index.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamphp7.4\\ht...', 10, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xamphp7.4\\ht...')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\gudang\\...', Array, true)
+#4 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(73): view('Modules\\gudang\\...', Array)
+#5 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(17): App\Libraries\Templates->display('gudang', 'index', Array)
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->index()
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#8 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-02 13:55:55 --> Illegal string offset 'request'
+#0 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xamphp7.4\\ht...', 45, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(17): App\Libraries\Templates->display('gudang', 'index', '')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->index()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-02 13:56:00 --> Illegal string offset 'request'
+#0 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xamphp7.4\\ht...', 45, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(17): App\Libraries\Templates->display('gudang', 'index', '')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->index()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-02 13:56:23 --> Illegal string offset 'request'
+#0 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xamphp7.4\\ht...', 45, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(17): App\Libraries\Templates->display('gudang', 'index', '')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->index()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-02 13:57:12 --> Illegal string offset 'request'
+#0 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xamphp7.4\\ht...', 45, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(17): App\Libraries\Templates->display('gudang', 'index', '')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->index()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-02 13:57:20 --> Illegal string offset 'icon'
+#0 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xamphp7.4\\ht...', 54, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(17): App\Libraries\Templates->display('gudang', 'index', '')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->index()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-02 13:57:44 --> Illegal string offset 'menu'
+#0 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xamphp7.4\\ht...', 61, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(17): App\Libraries\Templates->display('gudang', 'index', '')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->index()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-02 13:59:23 --> Illegal string offset 'request'
+#0 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xamphp7.4\\ht...', 45, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(17): App\Libraries\Templates->display('gudang', 'index', '')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->index()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-02 14:01:33 --> Undefined variable: data
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamphp7.4\\ht...', 17, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->index()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-02 14:02:01 --> Illegal string offset 'request'
+#0 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xamphp7.4\\ht...', 45, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(17): App\Libraries\Templates->display('gudang', 'index', '')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->index()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-02 14:03:03 --> Too few arguments to function App\Libraries\Templates::display(), 2 passed in C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php on line 17 and exactly 3 expected
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(17): App\Libraries\Templates->display('gudang', 'index')
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->index()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-02 14:03:18 --> Too few arguments to function App\Libraries\Templates::display(), 2 passed in C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php on line 17 and exactly 3 expected
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(17): App\Libraries\Templates->display('gudang', 'index')
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->index()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-02 14:04:57 --> Undefined variable: cname
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Views\index.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamphp7.4\\ht...', 45, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xamphp7.4\\ht...')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\gudang\\...', Array, true)
+#4 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(66): view('Modules\\gudang\\...', Array)
+#5 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(23): App\Libraries\Templates->display('gudang', 'index', Array)
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->index()
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#8 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-02 14:05:52 --> Undefined variable: title
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Views\index.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamphp7.4\\ht...', 11, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xamphp7.4\\ht...')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\gudang\\...', Array, true)
+#4 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(66): view('Modules\\gudang\\...', Array)
+#5 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(23): App\Libraries\Templates->display('gudang', 'index', Array)
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->index()
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#8 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-02 14:12:18 --> Call to a member function flashdata() on null
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\gudang\\...', Array, true)
+#3 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(68): view('Modules\\gudang\\...', Array)
+#4 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(63): App\Libraries\Templates->display('gudang', '/add')
+#5 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->tambah()
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-02 14:58:19 --> Array to string conversion
+#0 C:\xamphp7.4\htdocs\endque_lion\app\Helpers\mikaeilar_helper.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xamphp7.4\\ht...', 25, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(77): warn_msg(Array)
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->do_tambah()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-02 15:01:04 --> Array to string conversion
+#0 C:\xamphp7.4\htdocs\endque_lion\app\Helpers\mikaeilar_helper.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xamphp7.4\\ht...', 25, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(77): warn_msg(Array)
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->do_tambah()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-02 15:01:14 --> Array to string conversion
+#0 C:\xamphp7.4\htdocs\endque_lion\app\Helpers\mikaeilar_helper.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xamphp7.4\\ht...', 25, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(77): warn_msg(Array)
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->do_tambah()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-02 15:03:22 --> Array to string conversion
+#0 C:\xamphp7.4\htdocs\endque_lion\app\Helpers\mikaeilar_helper.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xamphp7.4\\ht...', 25, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(77): warn_msg(Array)
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->do_tambah()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-02 15:04:08 --> Array to string conversion
+#0 C:\xamphp7.4\htdocs\endque_lion\app\Helpers\mikaeilar_helper.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xamphp7.4\\ht...', 25, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(77): warn_msg(Array)
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->do_tambah()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-02 15:07:53 --> Array to string conversion
+#0 C:\xamphp7.4\htdocs\endque_lion\app\Helpers\mikaeilar_helper.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xamphp7.4\\ht...', 25, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(77): warn_msg(Array)
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->do_tambah()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-02 15:07:56 --> Array to string conversion
+#0 C:\xamphp7.4\htdocs\endque_lion\app\Helpers\mikaeilar_helper.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xamphp7.4\\ht...', 25, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(77): warn_msg(Array)
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->do_tambah()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-02 15:08:21 --> Array to string conversion
+#0 C:\xamphp7.4\htdocs\endque_lion\app\Helpers\mikaeilar_helper.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xamphp7.4\\ht...', 25, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(77): warn_msg(Array)
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->do_tambah()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-02 15:08:24 --> Array to string conversion
+#0 C:\xamphp7.4\htdocs\endque_lion\app\Helpers\mikaeilar_helper.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xamphp7.4\\ht...', 25, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(77): warn_msg(Array)
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->do_tambah()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-02 15:09:22 --> Array to string conversion
+#0 C:\xamphp7.4\htdocs\endque_lion\app\Helpers\mikaeilar_helper.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xamphp7.4\\ht...', 25, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(77): warn_msg(Array)
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->do_tambah()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-02 15:11:20 --> Array to string conversion
+#0 C:\xamphp7.4\htdocs\endque_lion\app\Helpers\mikaeilar_helper.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xamphp7.4\\ht...', 25, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(77): warn_msg(Array)
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->do_tambah()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-02 15:11:22 --> Array to string conversion
+#0 C:\xamphp7.4\htdocs\endque_lion\app\Helpers\mikaeilar_helper.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xamphp7.4\\ht...', 25, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(77): warn_msg(Array)
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->do_tambah()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-02 15:13:07 --> Call to undefined method CodeIgniter\Validation\Validation::listError()
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->do_tambah()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-02 15:13:42 --> Too few arguments to function CodeIgniter\Validation\Validation::showError(), 0 passed in C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php on line 74 and at least 1 expected
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(74): CodeIgniter\Validation\Validation->showError()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->do_tambah()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-02 15:29:35 --> Argument 1 passed to CodeIgniter\Validation\Validation::run() must be of the type array or null, bool given, called in C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php on line 74
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(74): CodeIgniter\Validation\Validation->run(true)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->do_tambah()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-02 15:32:46 --> Array to string conversion
+#0 C:\xamphp7.4\htdocs\endque_lion\app\Helpers\mikaeilar_helper.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xamphp7.4\\ht...', 25, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(77): warn_msg(Array)
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->do_tambah()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#4 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-02 15:48:30 --> Trying to get property 'kode_gudang' of non-object
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xamphp7.4\\ht...', 77, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->do_tambah()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-02 16:13:57 --> Trying to get property 'kode_gudang' of non-object
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Views\add.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xamphp7.4\\ht...', 18, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xamphp7.4\\ht...')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\gudang\\...', Array, true)
+#4 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(68): view('Modules\\gudang\\...', Array)
+#5 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(64): App\Libraries\Templates->display('gudang', '/add')
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->tambah()
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#8 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-02 16:14:10 --> Trying to get property 'kode_gudang' of non-object
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Views\add.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xamphp7.4\\ht...', 18, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xamphp7.4\\ht...')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\gudang\\...', Array, true)
+#4 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(68): view('Modules\\gudang\\...', Array)
+#5 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(64): App\Libraries\Templates->display('gudang', '/add')
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->tambah()
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#8 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-02 16:14:27 --> Trying to get property 'kode_gudang' of non-object
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Views\add.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xamphp7.4\\ht...', 18, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xamphp7.4\\ht...')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\gudang\\...', Array, true)
+#4 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(68): view('Modules\\gudang\\...', Array)
+#5 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(64): App\Libraries\Templates->display('gudang', '/add')
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->tambah()
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#8 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-02 16:15:49 --> Trying to get property 'kode_gudang' of non-object
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Views\add.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xamphp7.4\\ht...', 18, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xamphp7.4\\ht...')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\gudang\\...', Array, true)
+#4 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(68): view('Modules\\gudang\\...', Array)
+#5 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(64): App\Libraries\Templates->display('gudang', '/add')
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->tambah()
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#8 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-02 16:21:53 --> Undefined property: stdClass::$kode_gudang
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Views\add.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 18, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xamphp7.4\\ht...')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\gudang\\...', Array, true)
+#4 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(68): view('Modules\\gudang\\...', Array)
+#5 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(65): App\Libraries\Templates->display('gudang', '/add')
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->tambah()
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#8 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-02 16:21:54 --> Undefined property: stdClass::$kode_gudang
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Views\add.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 18, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xamphp7.4\\ht...')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\gudang\\...', Array, true)
+#4 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(68): view('Modules\\gudang\\...', Array)
+#5 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(65): App\Libraries\Templates->display('gudang', '/add')
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->tambah()
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#8 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-02 16:21:55 --> Undefined property: stdClass::$kode_gudang
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Views\add.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 18, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xamphp7.4\\ht...')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\gudang\\...', Array, true)
+#4 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(68): view('Modules\\gudang\\...', Array)
+#5 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(65): App\Libraries\Templates->display('gudang', '/add')
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->tambah()
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#8 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-02 16:26:35 --> Undefined property: Modules\Gudang\Controllers\Gudang::$user
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(112): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 112, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->do_tambah()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-02 16:33:30 --> Too few arguments to function Modules\Gudang\Controllers\Gudang::hapus(), 0 passed in C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->hapus()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-02 16:35:16 --> Undefined variable: id
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(199): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xamphp7.4\\ht...', 199, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->hapus()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-02 16:36:41 --> Too few arguments to function Modules\Gudang\Controllers\Gudang::hapus(), 0 passed in C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->hapus()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-02 16:36:43 --> Too few arguments to function Modules\Gudang\Controllers\Gudang::hapus(), 0 passed in C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->hapus()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-02 16:41:03 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$nama_gudang
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(208): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 208, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->hapus()
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-02 16:56:57 --> Call to undefined method CodeIgniter\Session\Session::getFlasdata()
+#0 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->do_tambah()
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-02 17:01:21 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Views\add.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 3, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xamphp7.4\\ht...')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\gudang\\...', Array, true)
+#4 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(68): view('Modules\\gudang\\...', Array)
+#5 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(65): App\Libraries\Templates->display('gudang', '/add')
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->tambah()
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#8 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-02 17:01:22 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Views\add.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xamphp7.4\\ht...', 3, Array)
+#1 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xamphp7.4\\ht...')
+#2 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Modules\\gudang\\...', Array, true)
+#4 C:\xamphp7.4\htdocs\endque_lion\app\Libraries\Templates.php(68): view('Modules\\gudang\\...', Array)
+#5 C:\xamphp7.4\htdocs\endque_lion\modules\Gudang\Controllers\Gudang.php(65): App\Libraries\Templates->display('gudang', '/add')
+#6 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Gudang\Controllers\Gudang->tambah()
+#7 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Gudang\Controllers\Gudang))
+#8 C:\xamphp7.4\htdocs\endque_lion\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamphp7.4\htdocs\endque_lion\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

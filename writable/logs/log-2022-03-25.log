@@ -1,0 +1,68 @@
+CRITICAL - 2022-03-25 10:34:32 --> Array to string conversion
+#0 C:\xamphp7.4\htdocs\sms\modules\Web_service\Controllers\Web_service.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xamphp7.4\\ht...', 34, Array)
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Web_service\Controllers\Web_service->send_sms()
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Web_service\Controllers\Web_service))
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-25 10:45:35 --> Array to string conversion
+#0 C:\xamphp7.4\htdocs\sms\modules\Web_service\Controllers\Web_service.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xamphp7.4\\ht...', 34, Array)
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Web_service\Controllers\Web_service->send_sms()
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Web_service\Controllers\Web_service))
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-25 10:56:55 --> Array to string conversion
+#0 C:\xamphp7.4\htdocs\sms\modules\Web_service\Controllers\Web_service.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xamphp7.4\\ht...', 34, Array)
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Web_service\Controllers\Web_service->send_sms()
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Web_service\Controllers\Web_service))
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-25 10:56:58 --> Array to string conversion
+#0 C:\xamphp7.4\htdocs\sms\modules\Web_service\Controllers\Web_service.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xamphp7.4\\ht...', 34, Array)
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Web_service\Controllers\Web_service->send_sms()
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Web_service\Controllers\Web_service))
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-25 10:57:09 --> Array to string conversion
+#0 C:\xamphp7.4\htdocs\sms\modules\Web_service\Controllers\Web_service.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xamphp7.4\\ht...', 34, Array)
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Web_service\Controllers\Web_service->send_sms()
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Web_service\Controllers\Web_service))
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-25 10:57:43 --> Array to string conversion
+#0 C:\xamphp7.4\htdocs\sms\modules\Web_service\Controllers\Web_service.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xamphp7.4\\ht...', 34, Array)
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Web_service\Controllers\Web_service->send_sms()
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Web_service\Controllers\Web_service))
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-25 10:58:59 --> Array to string conversion
+#0 C:\xamphp7.4\htdocs\sms\modules\Web_service\Controllers\Web_service.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xamphp7.4\\ht...', 34, Array)
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Web_service\Controllers\Web_service->send_sms()
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Web_service\Controllers\Web_service))
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-25 11:24:20 --> Column 'DestinationNumber' cannot be null
+CRITICAL - 2022-03-25 11:24:20 --> Column 'DestinationNumber' cannot be null
+#0 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ou...', 0)
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ou...')
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ou...')
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ou...', Array, false)
+#4 C:\xamphp7.4\htdocs\sms\modules\Web_service\Controllers\Web_service.php(31): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Web_service\Controllers\Web_service->send_sms()
+#6 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Web_service\Controllers\Web_service))
+#7 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-25 13:37:03 --> Undefined offset: 5
+#0 C:\xamphp7.4\htdocs\sms\modules\Dashboard\Controllers\Dashboard.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xamphp7.4\\ht...', 79, Array)
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): Modules\Dashboard\Controllers\Dashboard->cek_pulsa()
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(Modules\Dashboard\Controllers\Dashboard))
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

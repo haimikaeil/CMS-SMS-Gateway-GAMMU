@@ -1,0 +1,117 @@
+CRITICAL - 2022-02-09 20:52:41 --> Class 'Modules\Loket\Models\M_loket' not found
+#0 C:\xamphp7.4\htdocs\sms\app\Controllers\Login.php(9): App\Controllers\MikaController->__construct()
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Login->__construct()
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-09 20:56:32 --> Class 'Modules\Loket\Models\M_loket' not found
+#0 C:\xamphp7.4\htdocs\sms\app\Controllers\Login.php(9): App\Controllers\MikaController->__construct()
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Login->__construct()
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-09 21:16:20 --> Table 'gammu.setting' doesn't exist
+CRITICAL - 2022-02-09 21:16:20 --> Table 'gammu.setting' doesn't exist
+#0 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xamphp7.4\htdocs\sms\app\Controllers\MikaController.php(40): CodeIgniter\Database\BaseBuilder->get(1)
+#5 C:\xamphp7.4\htdocs\sms\modules\Dashboard\Controllers\Dashboard.php(12): App\Controllers\MikaController->__construct()
+#6 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): Modules\Dashboard\Controllers\Dashboard->__construct()
+#7 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#8 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-02-09 21:18:23 --> Table 'gammu.setting' doesn't exist
+CRITICAL - 2022-02-09 21:18:23 --> Table 'gammu.setting' doesn't exist
+#0 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xamphp7.4\htdocs\sms\app\Controllers\MikaController.php(40): CodeIgniter\Database\BaseBuilder->get(1)
+#5 C:\xamphp7.4\htdocs\sms\modules\Dashboard\Controllers\Dashboard.php(12): App\Controllers\MikaController->__construct()
+#6 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): Modules\Dashboard\Controllers\Dashboard->__construct()
+#7 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#8 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-02-09 21:18:46 --> Table 'gammu.setting' doesn't exist
+CRITICAL - 2022-02-09 21:18:46 --> Table 'gammu.setting' doesn't exist
+#0 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xamphp7.4\htdocs\sms\app\Controllers\MikaController.php(40): CodeIgniter\Database\BaseBuilder->get(1)
+#5 C:\xamphp7.4\htdocs\sms\modules\Dashboard\Controllers\Dashboard.php(12): App\Controllers\MikaController->__construct()
+#6 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): Modules\Dashboard\Controllers\Dashboard->__construct()
+#7 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#8 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-02-09 21:18:48 --> Table 'gammu.setting' doesn't exist
+CRITICAL - 2022-02-09 21:18:48 --> Table 'gammu.setting' doesn't exist
+#0 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xamphp7.4\htdocs\sms\app\Controllers\MikaController.php(40): CodeIgniter\Database\BaseBuilder->get(1)
+#5 C:\xamphp7.4\htdocs\sms\modules\Dashboard\Controllers\Dashboard.php(12): App\Controllers\MikaController->__construct()
+#6 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): Modules\Dashboard\Controllers\Dashboard->__construct()
+#7 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#8 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-02-09 21:18:49 --> Table 'gammu.setting' doesn't exist
+CRITICAL - 2022-02-09 21:18:49 --> Table 'gammu.setting' doesn't exist
+#0 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xamphp7.4\htdocs\sms\app\Controllers\MikaController.php(40): CodeIgniter\Database\BaseBuilder->get(1)
+#5 C:\xamphp7.4\htdocs\sms\modules\Dashboard\Controllers\Dashboard.php(12): App\Controllers\MikaController->__construct()
+#6 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): Modules\Dashboard\Controllers\Dashboard->__construct()
+#7 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#8 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-02-09 21:20:30 --> Table 'gammu.setting' doesn't exist
+CRITICAL - 2022-02-09 21:20:30 --> Table 'gammu.setting' doesn't exist
+#0 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xamphp7.4\htdocs\sms\app\Controllers\MikaController.php(40): CodeIgniter\Database\BaseBuilder->get(1)
+#5 C:\xamphp7.4\htdocs\sms\modules\Dashboard\Controllers\Dashboard.php(12): App\Controllers\MikaController->__construct()
+#6 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): Modules\Dashboard\Controllers\Dashboard->__construct()
+#7 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#8 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-02-09 21:20:33 --> Table 'gammu.setting' doesn't exist
+CRITICAL - 2022-02-09 21:20:33 --> Table 'gammu.setting' doesn't exist
+#0 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xamphp7.4\htdocs\sms\app\Controllers\MikaController.php(40): CodeIgniter\Database\BaseBuilder->get(1)
+#5 C:\xamphp7.4\htdocs\sms\modules\Dashboard\Controllers\Dashboard.php(12): App\Controllers\MikaController->__construct()
+#6 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): Modules\Dashboard\Controllers\Dashboard->__construct()
+#7 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#8 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-02-09 21:45:57 --> Unknown column 'user_role.menu_akses' in 'field list'
+CRITICAL - 2022-02-09 21:45:57 --> Unknown column 'user_role.menu_akses' in 'field list'
+#0 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `user`.*...', 0)
+#1 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user`.*...')
+#2 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user`.*...')
+#3 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `user`.*...', Array, false)
+#4 C:\xamphp7.4\htdocs\sms\app\Controllers\Login.php(36): CodeIgniter\Database\BaseBuilder->get(1)
+#5 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(825): App\Controllers\Login->proses()
+#6 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xamphp7.4\htdocs\sms\vendor\codeigniter4\framework\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xamphp7.4\htdocs\sms\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
